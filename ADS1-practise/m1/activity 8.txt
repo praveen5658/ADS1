@@ -1,0 +1,7 @@
+We have four types of techniques to solve the above problem.
+	1. Quick Find
+	2. Quick Union
+	3. Weighted Quick Union
+	4. Weighted Quick Union path compression
+
+In above four techniques, the better process is Weighted Quick Union path compression because in this technique we compress the length of the tree and the complexity also reduced. The time complexity is log N hence we can compute for large data in less amount of time. 
