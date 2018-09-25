@@ -1,0 +1,5 @@
+
+
+In assignment they given the nodes array as [0, 1, ,2, ,3, ,4, 5, 6, ,7, ,8, ,9] and the final connectivity array is [1, 1, 3, 1, 5, 6, 1, 3, 4, 5].
+	From any union operations also, we can't get the final array by using the weighted quick union. 
+	By doing reverse engineering, we are unable to satisfy the basic property of weighted union i.e making the less size tree as child and vice versa. This property is failed for node 6. Hence it is impossible to get the array as result.
