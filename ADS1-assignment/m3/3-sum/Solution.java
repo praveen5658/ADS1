@@ -12,13 +12,18 @@ import java.util.Arrays;
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
     private Solution() {
 
     }
+    /**
+     * { Main }.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
