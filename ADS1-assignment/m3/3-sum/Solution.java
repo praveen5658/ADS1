@@ -43,7 +43,6 @@ class Solution {
 					tail -= 1;
 				}
 			}
-			System.out.println(cou);
 		}
 		System.out.println(cou);
 	}
