@@ -59,7 +59,7 @@ final class Solution {
                     i++;
                     k++;
                     fin[k] = ar2[j];
-                    i++;
+                    j++;
                     k++;
                 }
             } else {
