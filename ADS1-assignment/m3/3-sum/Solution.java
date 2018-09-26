@@ -23,7 +23,6 @@ class Solution {
 		int tail = 0;
 		int cou = 0;
 		Arrays.sort(ar);
-		System.out.println(Arrays.toString(ar));
 		for (int i = 0; i < n - 2; i++) {
 			a = ar[i];
 			head = i + 1;
