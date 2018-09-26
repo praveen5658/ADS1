@@ -6,10 +6,6 @@
  */
 import java.util.Scanner;
 /**
- * { Importing package }.
- */
-import java.util.Arrays;
-/**
  * Class for solution.
  */
 final class Solution {
