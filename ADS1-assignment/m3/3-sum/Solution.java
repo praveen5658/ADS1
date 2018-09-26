@@ -2,13 +2,23 @@
  * @author Praveen
  */
 /**
- * { Value }.
+ * { Importing Package }.
  */
-import java.util.*;
+import java.util.Scanner;
+/**
+ * { Importing package }.
+ */
+import java.util.Arrays;
 /**
  * Class for solution.
  */
 class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+
+    }
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
