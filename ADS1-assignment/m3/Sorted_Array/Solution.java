@@ -31,9 +31,7 @@ final class Solution {
         int[] ar1 = new int[n1];
         int[] ar2 = new int[n2];
         String[] s1 = scan.nextLine().split(",");
-        System.out.println(Arrays.toString(s1));
         String[] s2 = scan.nextLine().split(",");
-        System.out.println(Arrays.toString(s2));
         for (int i = 0; i < n1; i++) {
             ar1[i] = Integer.parseInt(s1[i]);
         }
