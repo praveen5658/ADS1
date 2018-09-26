@@ -76,7 +76,7 @@ final class Solution {
         if (j < n2) {
             while (j < n2) {
                 fin[k] = ar2[j];
-                i++;
+                j++;
                 k++;
             }
         }
