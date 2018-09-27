@@ -6,7 +6,7 @@ class Solution {
 	}
 	class Node {
 		char data;
-		Node next = null;
+		Node next;
 	}
 	private Node head = new Node();
 	public void push(char ch) {
