@@ -9,7 +9,7 @@ import java.util.Arrays;
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
@@ -20,8 +20,14 @@ class Solution {
      * Class for node.
      */
     class Node {
-        char data;
-        Node next;
+        /**
+         * { Private Value }.
+         */
+        private char data;
+        /**
+         * { Private Value }.
+         */
+        private Node next;
     }
     /**
      * { Head Node }.
