@@ -93,8 +93,7 @@ final class Solution {
                     s.push(popelement1 - popelement2);
                 } else if (input[j].equals("*")) {
                     s.push(popelement1 * popelement2);
-                } 
-                else {
+                } else {
                     s.push(popelement1 / popelement2);
                 }
             }
