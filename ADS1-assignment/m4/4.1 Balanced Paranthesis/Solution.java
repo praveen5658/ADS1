@@ -81,7 +81,7 @@ final class Solution {
         int num = Integer.parseInt(scan.nextLine());
         Solution s;
         char[] input;
-        for (int i = 0; i < num ; i++) {
+        for (int i = 0; i < num; i++) {
             input1 = scan.nextLine();
             input = input1.toCharArray();
             s = new Solution();
