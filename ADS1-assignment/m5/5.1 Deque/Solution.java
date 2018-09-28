@@ -3,10 +3,6 @@
  */
 import java.util.Scanner;
 /**
- * { Importing Arrays }.
- */
-import java.util.Arrays;
-/**
  * Class for solution.
  */
 class Deque {
@@ -38,9 +34,12 @@ class Deque {
         private Node left;
     }
     /**
-     * { Head Node, Tail Node }.
+     * { Head Node }.
      */
     private Node head;
+    /**
+     * { Tail Node }.
+     */
     private Node tail;
     /**
      * { For pushing }.
@@ -134,6 +133,11 @@ class Deque {
     public int size() {
         return size;
     }
+    /**
+     * { For Print }.
+     *
+     * @return     { String }.
+     */
     public String print() {
         if (size == 0) {
             return "[]";
@@ -150,10 +154,21 @@ class Deque {
         return s;
     }
 }
+/**
+ * { Solution }
+ */
 final class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
 
     }
+    /**
+     * { Main }.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int num = Integer.parseInt(scan.nextLine());
