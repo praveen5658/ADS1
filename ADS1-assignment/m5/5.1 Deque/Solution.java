@@ -70,13 +70,18 @@ class Deque {
      *
      * @return     { Character }.
      */
-    public int popLeft() {
+    public void popLeft() {
         // System.out.println(head.data);
-        int k = head.data;
-        head = head.right;
-        head.left = null;
-        size--;
-        return k;
+        if (size > 0) {
+            int k = head.data;
+            head = head.right;
+            if (head != null) {
+                head.left = null;
+            }
+            size--;
+        } else {
+            System.out.println("Deck is empty");
+        }
     }
     /**
      * { For pushing }.
@@ -108,13 +113,18 @@ class Deque {
      *
      * @return     { Character }.
      */
-    public int popRight() {
+    public void popRight() {
         // System.out.println(head.data);
-        int k = tail.data;
-        tail = tail.left;
-        tail.right = null;
-        size--;
-        return k;
+        if (size > 0) {
+            int k = tail.data;
+            tail = tail.left;
+            if (tail != null) {
+                tail.right = null;
+            }
+            size--;
+        } else {
+            System.out.println("Deck is empty");
+        }
     }
     /**
      * Determines if empty.
@@ -133,14 +143,14 @@ class Deque {
         return size;
     }
     public String print() {
-        if (size == 0){
+        if (size == 0) {
             return "[]";
         }
         String s = "[";
         Node head1 = head;
         Node tail1 = tail;
         while (head1 != null) {
-            s+= Integer.toString(head1.data) + ", ";
+            s += Integer.toString(head1.data) + ", ";
             head1 = head1.right;
         }
         s = s.substring(0, s.length() - 2);
@@ -148,7 +158,7 @@ class Deque {
         return s;
     }
 }
-final class Solution{
+final class Solution {
     private Solution() {
 
     }
@@ -160,7 +170,7 @@ final class Solution{
         while (num > 0) {
             input = scan.nextLine().split(" ");
             switch (input[0]) {
-            case "pushLeft" : 
+            case "pushLeft" :
                 d.pushLeft(Integer.parseInt(input[1]));
                 System.out.println(d.print());
                 break;
@@ -173,11 +183,15 @@ final class Solution{
                 break;
             case "popLeft" :
                 d.popLeft();
-                System.out.println(d.print());
+                if (d.size() > 0){
+                    System.out.println(d.print());
+                }
                 break;
             case "popRight" :
                 d.popRight();
-                System.out.println(d.print());
+                if (d.size() > 0){
+                    System.out.println(d.print());
+                }
                 break;
             case "isEmpty" :
                 System.out.println(d.isEmpty());
