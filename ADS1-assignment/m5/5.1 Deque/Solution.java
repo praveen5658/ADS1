@@ -67,7 +67,6 @@ class Deque {
     /**
      * { Pop function }.
      *
-     * @return     { Character }.
      */
     public void popLeft() {
         // System.out.println(head.data);
@@ -101,12 +100,11 @@ class Deque {
         tail.right = node;
         tail = node;
         // System.out.println(tail.data);
-        size ++;
+        size++;
     }
     /**
      * { Pop  function }.
      *
-     * @return     { Character }.
      */
     public void popRight() {
         // System.out.println(head.data);
@@ -155,7 +153,7 @@ class Deque {
     }
 }
 /**
- * { Solution }
+ * { Solution }.
  */
 final class Solution {
     /**
@@ -207,6 +205,7 @@ final class Solution {
             case "isEmpty" :
                 System.out.println(d.isEmpty());
                 break;
+            default : break;
             }
             num--;
         }
