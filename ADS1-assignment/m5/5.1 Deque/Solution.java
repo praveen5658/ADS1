@@ -72,16 +72,12 @@ class Deque {
      */
     public void popLeft() {
         // System.out.println(head.data);
-        if (size > 0) {
-            int k = head.data;
-            head = head.right;
-            if (head != null) {
-                head.left = null;
-            }
-            size--;
-        } else {
-            System.out.println("Deck is empty");
+        int k = head.data;
+        head = head.right;
+        if (head != null) {
+            head.left = null;
         }
+        size--;
     }
     /**
      * { For pushing }.
@@ -115,16 +111,12 @@ class Deque {
      */
     public void popRight() {
         // System.out.println(head.data);
-        if (size > 0) {
-            int k = tail.data;
-            tail = tail.left;
-            if (tail != null) {
-                tail.right = null;
-            }
-            size--;
-        } else {
-            System.out.println("Deck is empty");
+        int k = tail.data;
+        tail = tail.left;
+        if (tail != null) {
+            tail.right = null;
         }
+        size--;
     }
     /**
      * Determines if empty.
@@ -182,15 +174,19 @@ final class Solution {
                 System.out.println(d.size());
                 break;
             case "popLeft" :
-                d.popLeft();
-                if (d.size() > 0){
+                if (d.size() > 0) {
+                    d.popLeft();
                     System.out.println(d.print());
+                } else {
+                    System.out.println("Deck is empty");
                 }
                 break;
             case "popRight" :
-                d.popRight();
-                if (d.size() > 0){
+                if (d.size() > 0) {
+                    d.popRight();
                     System.out.println(d.print());
+                } else {
+                    System.out.println("Deck is empty");
                 }
                 break;
             case "isEmpty" :
