@@ -132,7 +132,7 @@ class AddLargeNumbers {
 /**
  * Class for solution.
  */
-final public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
