@@ -16,11 +16,11 @@ final class Solution {
      * { Main Method }.
      *
      * @param      args  The arguments
-     * 
+     *
      * Based on Input first we need to read the number of Testcases.
      * From each testcases we performed some operations
      * like push,enqueu,pop etc..
-     * 
+     *
      * Complexity : O(n^2)
      */
     public static void main(final String[] args) {
@@ -96,11 +96,11 @@ class LinkedList {
      * { For pushing element to Steque }.
      *
      * @param      number  The number
-     * 
+     *
      * This method will push numbers to the stack on the basis of
      * Last In First Out(LIFO). Elements would be inserted using
      * Head pointer.
-     * 
+     *
      * Complexity : O(1)
      */
     public void push(final int number) {
@@ -121,11 +121,11 @@ class LinkedList {
      * { For Enqueue operation in Steque }.
      *
      * @param      number  The number
-     * 
+     *
      * This method will enter numbers to the Queue on the basis of
      * First In First Out(FIFO). Elements would be inserted using
      * Tail pointer.
-     * 
+     *
      * Complexity : O(1)
      */
     public void enqueue(final int number) {
@@ -144,9 +144,9 @@ class LinkedList {
     }
     /**
      * { For popping an element from Steque }.
-     * 
+     *
      * Pops the element from Head pointer
-     * 
+     *
      * Complexity : O(1)
      */
     public void pop() {
@@ -157,7 +157,7 @@ class LinkedList {
      * Determines if empty.
      *
      * @return     True if empty, False otherwise.
-     * 
+     *
      * Complexity : O(1)
      */
     public boolean isEmpty() {
@@ -167,7 +167,7 @@ class LinkedList {
      * { For Printing Steque in required format }.
      *
      * @return     { String contains values in required format }.
-     * 
+     *
      * Complexity : O(n)
      */
     public String print() {
