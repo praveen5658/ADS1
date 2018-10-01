@@ -69,7 +69,13 @@ class LinkedList {
      * Class for node.
      */
     class Node {
+        /**
+         * { For Storing Data }.
+         */
         private int data;
+        /**
+         * { For Pointer to access next node in LinkedList }.
+         */
         private Node next;
     }
     /**
