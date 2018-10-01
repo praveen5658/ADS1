@@ -27,7 +27,7 @@ final class Solution {
             l = new LinkedList();
             while (scan.hasNext()) {
                 line = scan.nextLine();
-                if(line.isEmpty()) {
+                if (line.isEmpty()) {
                     break;
                 }
                 input = line.split(" ");
@@ -62,15 +62,15 @@ class LinkedList {
     /**
      * Constructs the object.
      */
-    protected LinkedList(){
+    protected LinkedList() {
 
     }
     /**
      * Class for node.
      */
     class Node {
-        int data;
-        Node next;
+        private int data;
+        private Node next;
     }
     /**
      * { Tail and Head are Node references }.
@@ -89,7 +89,7 @@ class LinkedList {
         Node node = new Node();
         node.data = number;
         node.next = null;
-        if (head == null){
+        if (head == null) {
             head = node;
             tail = node;
             size++;
@@ -139,17 +139,17 @@ class LinkedList {
      * @return     { String contains values in required format }.
      */
     public String print() {
-        if (size == 0){
+        if (size == 0) {
             return "Steque is empty.";
         }
         Node printhead = head;
         int printsize = size;
         String str = "";
-        while(printsize > 0){
+        while (printsize > 0) {
             str += Integer.toString(printhead.data) + ", ";
             printhead = printhead.next;
             printsize--;
         }
-        return str.substring(0, str.length()-2);
+        return str.substring(0, str.length() - 2);
     }
 }
