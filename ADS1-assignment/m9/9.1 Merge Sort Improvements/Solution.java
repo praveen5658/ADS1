@@ -26,6 +26,7 @@ final class Solution {
 			m = new MergeSort(array);
 			array = m.mergesort();
 			System.out.println(Arrays.toString(array));
+			System.out.println();
 		}
 	}
 }
