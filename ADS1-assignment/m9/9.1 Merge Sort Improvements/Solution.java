@@ -86,7 +86,7 @@ class MergeSort {
 		// System.out.println(high);
 		// System.out.println(mid);
 		int mid = low + ((high - low) / 2);
-		if((mid - low + 1)<8){
+		if((mid - low + 1)<=8){
 			insertion = new Insertion();
 			sample = new String[mid - low + 1];
 			for(int h = 0,l = low; h< sample.length;h++,l++){
@@ -99,7 +99,7 @@ class MergeSort {
 		} else {
 			sort(array, aux, low, mid);
 		}
-		if((high - (mid+1) + 1)<8){
+		if((high - (mid+1) + 1)<=8){
 			insertion = new Insertion();
 			sample = new String[high - (mid+1) + 1];
 			for(int h = 0,l = mid+1; h< sample.length;h++,l++){
