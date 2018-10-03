@@ -8,15 +8,15 @@ final class Solution {
 		Scanner scan = new Scanner(System.in);
 		String[] input;
 		final int fifty = 50;
-		int[] array;
+		String[] array;
 		int i = 0;
 		Insertion insertion;
 		MergeSort m;
 		while (scan.hasNext()) {
-			array = new int[fifty];
+			array = new String[fifty];
 			input = scan.nextLine().split(",");
 			for (i = 0; i < input.length; i++) {
-				array[i] = Integer.parseInt(input[i]);
+				array[i] = input[i];
 			}
 			array = Arrays.copyOf(array, i);
 			// System.out.println(Arrays.toString(array));
@@ -34,7 +34,7 @@ class Insertion {
 	protected Insertion() {
 
 	}
-	public int[] insertionsort(int[] array) {
+	public String[] insertionsort(String[] array) {
 		System.out.println("Insertion sort method invoked...");
 		for (int i = 0; i < array.length; i++) {
 			for (int j = i; j > 0; j--) {
@@ -47,32 +47,32 @@ class Insertion {
 		}
 		return array;
 	}
-	public boolean less(int a, int b) {
-		return (a < b);
+	public boolean less(String a, String b) {
+		return ((a.compareTo(b))<0);
 	}
-	public int[] swap(int[] array, int j, int k) {
-		int temp = array[k];
+	public String[] swap(String[] array, int j, int k) {
+		String temp = array[k];
 		array[k] = array[j];
 		array[j] = temp;
 		return array;
 	}
 }
 class MergeSort {
-	private int[] array;
-	private int[] aux;
+	private String[] array;
+	private String[] aux;
 	Insertion insertion;
-	private int[] sample;
-	protected MergeSort(int[] arr) {
+	private String[] sample;
+	protected MergeSort(String[] arr) {
 		array = arr;
-		aux = new int[array.length];
+		aux = new String[array.length];
 	}
-	public int[] mergesort() {
+	public String[] mergesort() {
 		int low = 0;
 		int high = array.length - 1;
 		sort(array, aux, low, high);
 		return array;
 	}
-	public void sort(int[] array, int[] aux, int low, int high) {
+	public void sort(String[] array, String[] aux, int low, int high) {
 		if (low >= high) {
 			return;
 		}
@@ -83,7 +83,7 @@ class MergeSort {
 		int mid = low + ((high - low) / 2);
 		if((mid - low + 1)<8){
 			insertion = new Insertion();
-			sample = new int[mid - low + 1];
+			sample = new String[mid - low + 1];
 			for(int h = 0,l = low; h< sample.length;h++,l++){
 				sample[h] = array[l];
 			}
@@ -96,7 +96,7 @@ class MergeSort {
 		}
 		if((high - (mid+1) + 1)<8){
 			insertion = new Insertion();
-			sample = new int[high - (mid+1) + 1];
+			sample = new String[high - (mid+1) + 1];
 			for(int h = 0,l = mid+1; h< sample.length;h++,l++){
 				sample[h] = array[l];
 			}
@@ -107,7 +107,7 @@ class MergeSort {
 		} else {
 			sort(array, aux, mid + 1, high);
 		}
-		if (array[mid] < array[mid + 1]) {
+		if (less(array[mid], array[mid + 1])) {
 			System.out.println("Array is already sorted. So, skipped the call to merge...");
 			return;
 		}
@@ -117,7 +117,7 @@ class MergeSort {
 		// System.out.println(mid);
 		merge(array, aux, low, mid, high);
 	}
-	public void merge(int[] array, int[] aux, int low, int mid, int high) {
+	public void merge(String[] array, String[] aux, int low, int mid, int high) {
 		// System.out.println(Arrays.toString(array));
 		for (int k = 0; k <= high; k++) {
 			aux[k] = array[k];
@@ -140,7 +140,7 @@ class MergeSort {
 			// System.out.println(Arrays.toString(array));
 		}
 	}
-	public boolean less(int a, int b) {
-		return (a < b);
+	public boolean less(String a, String b) {
+		return ((a.compareTo(b))<0);
 	}
 }
