@@ -7,13 +7,13 @@ final class Solution {
 	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String[] input;
-		final int fifty = 50;
+		final int fourhundred = 400;
 		String[] array;
 		int i = 0;
 		Insertion insertion;
 		MergeSort m;
 		while (scan.hasNext()) {
-			array = new String[fifty];
+			array = new String[fourhundred];
 			input = scan.nextLine().split(",");
 			for (i = 0; i < input.length; i++) {
 				array[i] = input[i];
