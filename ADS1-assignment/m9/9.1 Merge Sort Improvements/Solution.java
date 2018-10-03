@@ -69,7 +69,12 @@ class MergeSort {
 	public String[] mergesort() {
 		int low = 0;
 		int high = array.length - 1;
-		sort(array, aux, low, high);
+		if(high<8){
+			insertion = new Insertion();
+			array = insertion.insertionsort(array);
+		}else {
+			sort(array, aux, low, high);
+		}
 		return array;
 	}
 	public void sort(String[] array, String[] aux, int low, int high) {
