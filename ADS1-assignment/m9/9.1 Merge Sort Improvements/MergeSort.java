@@ -15,7 +15,7 @@ class MergeSort {
 			insertion = new Insertion();
 			array = insertion.insertionsort(array);
 		}else {
-			sort(array, aux, low, high);
+			sort(aux, array, low, high);
 		}
 		return array;
 	}
@@ -35,7 +35,7 @@ class MergeSort {
 				array[l] = sample[h];
 			}
 		} else {
-			sort(array, aux, low, mid);
+			sort(aux, array, low, mid);
 		}
 		if((high - (mid+1) + 1)<=8){
 			insertion = new Insertion();
@@ -48,28 +48,28 @@ class MergeSort {
 				array[l] = sample[h];
 			}
 		} else {
-			sort(array, aux, mid + 1, high);
+			sort(aux, array, mid + 1, high);
 		}
-		if (less(array[mid], array[mid + 1])) {
+		if (less(aux[mid], aux[mid + 1])) {
 			System.out.println("Array is already sorted. So, skipped the call to merge...");
 			return;
 		}
-		merge(array, aux, low, mid, high);
+		merge(aux, array, low, mid, high);
 	}
 	public void merge(String[] array, String[] aux, int low, int mid, int high) {
-		for (int k = 0; k <= high; k++) {
-			aux[k] = array[k];
-		}
+		// for (int k = 0; k <= high; k++) {
+		// 	aux[k] = array[k];
+		// }
 		int i = low, j = mid + 1;
 		for (int k = low; k <= high; k++) {
 			if (i > mid) {
-				array[k] = aux[j++];
+				aux[k] = array[j++];
 			} else if (j > high) {
-				array[k] = aux[i++];
-			} else if (less(aux[j], aux[i])) {
-				array[k] = aux[j++];
+				aux[k] = array[i++];
+			} else if (less(array[j], array[i])) {
+				aux[k] = array[j++];
 			} else {
-				array[k] = aux[i++];
+				aux[k] = array[i++];
 			}
 		}
 	}
