@@ -1,9 +1,17 @@
 import java.util.Scanner;
 import java.util.Arrays;
 final class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	private Solution() {
 
 	}
+	/**
+	 * { Main Method }.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String[] input;
