@@ -1,8 +1,27 @@
 import java.util.Arrays;
+/**
+ * Class for insertion.
+ * Complexity:
+	 * Best Case : O(N^2)
+	 * Worst Case : O(N^2)
+	 * Optimal Case : O(N^2)
+ */
 class Insertion {
 	protected Insertion() {
 
 	}
+	/**
+	 * { Insertion Sort }.
+	 *
+	 * @param      array  The array
+	 *
+	 * @return     { String array }.
+	 * 
+	 * Complexity:
+	 * Best Case : O(N^2)
+	 * Worst Case : O(N^2)
+	 * Optimal Case : O(N^2)
+	 */
 	public String[] insertionsort(String[] array) {
 		System.out.println("Insertion sort method invoked...");
 		for (int i = 0; i < array.length; i++) {
