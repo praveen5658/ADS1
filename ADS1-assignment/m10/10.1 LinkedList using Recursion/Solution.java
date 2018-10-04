@@ -59,6 +59,7 @@ class LinkedList {
 			node.next = start;
 			start = node;
 			current = start;
+			samplestart = start;
 			size++;
 			return;
 		}
