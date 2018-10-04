@@ -6,8 +6,9 @@ class Solution {
 	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String[] input;
-		LinkedList l = new LinkedList();
+		LinkedList l;
 		while (scan.hasNext()) {
+			l = new LinkedList();
 			input = scan.nextLine().split(" ");
 			switch (input[0]) {
 			case "insertAt":
