@@ -52,6 +52,7 @@ class LinkedList {
 		if (start == null) {
 			start = node;
 			current = start;
+			samplestart = start;
 			size++;
 			return;
 		}
