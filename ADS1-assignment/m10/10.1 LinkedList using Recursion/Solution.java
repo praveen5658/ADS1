@@ -74,7 +74,9 @@ class LinkedList {
 			size++;
 			sampleindex = 0;
 			samplestart = start;
-			System.out.println(size);
+			// System.out.println(size);
+			System.out.println(samplestart);
+			System.out.println(samplestart.data);
 		}
 		return;
 	}

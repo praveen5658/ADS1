@@ -7,7 +7,8 @@ Expected Output:
 Your Output: 
 5
 7, 5
-3
+LinkedList$Node@566776ad
+7
 7, 6, 5
 5, 6, 7
 ----------------------------------------
@@ -29,7 +30,8 @@ Can't insert at this position.
 Your Output: 
 5
 7, 5
-3
+LinkedList$Node@566776ad
+7
 7, 9, 5
 5, 9, 7
 Can't insert at this position.
@@ -38,9 +40,11 @@ null
 null
 71, 5, 9, 7
 75, 71, 5, 9, 7
-6
+LinkedList$Node@6108b2d7
+75
 75, 71, 5, 9, 66, 7
-7
+LinkedList$Node@6108b2d7
+75
 75, 71, 5, 9, 66, 32, 7
 7, 32, 66, 9, 5, 71, 75
 ----------------------------------------
