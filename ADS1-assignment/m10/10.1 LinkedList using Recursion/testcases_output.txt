@@ -40,15 +40,9 @@ Can't insert at this position.
 75, 71, 5, 9, 27, 32, 66, 17, 7
 7, 17, 66, 32, 27, 9, 5, 71, 75
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 No elements to reverse.
 Your Output: 
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -2, length 0
-	at java.base/java.lang.String.checkBoundsBeginEnd(Unknown Source)
-	at java.base/java.lang.String.substring(Unknown Source)
-	at LinkedList.toString(Solution.java:86)
-	at java.base/java.lang.String.valueOf(Unknown Source)
-	at java.base/java.io.PrintStream.println(Unknown Source)
-	at Solution.main(Solution.java:23)
+No elements to reverse.
 ----------------------------------------

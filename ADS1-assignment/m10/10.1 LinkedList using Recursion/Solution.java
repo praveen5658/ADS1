@@ -19,8 +19,12 @@ class Solution{
 					}
 					break;
 				case "reverse":
+					try{
 					l.reverse();
 					System.out.println(l);
+					} catch (Exception e){
+						System.out.println(e.getMessage());
+					}
 					break;
 			}
 		}
@@ -64,7 +68,10 @@ class LinkedList{
 		samplestart.next = node;
 		size++;
 	}
-	public void reverse(){
+	public void reverse() throws Exception{
+		if (size == 0){
+			throw new Exception("No elements to reverse.");
+		}
 		Node prev = null;
 		Node current = start;
 		Node next = null;
