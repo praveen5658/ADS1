@@ -27,9 +27,10 @@ Starting audit...
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:73:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:73:14: Variable 'next' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:74:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:85:18: 'else' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:85:18: '}' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:89: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:91:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:81:18: 'else' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:81:18: '}' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:82: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:90: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:92:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 32 errors.
+Checkstyle ends with 33 errors.

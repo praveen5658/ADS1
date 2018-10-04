@@ -75,15 +75,16 @@ class LinkedList {
 		if (size == 0) {
 			throw new Exception("No elements to reverse.");
 		}
-		if (current != null) {
+		if (current == null) {
+			start = prev;
+			return;
+		}else {
+			
 			next = current.next;
 			current.next = prev;
 			prev = current;
 			current = next;
 			reverse();
-			return;
-		}else {
-			start = prev;
 			return;
 		}
 		
