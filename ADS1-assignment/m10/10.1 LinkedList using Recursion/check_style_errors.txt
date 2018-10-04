@@ -20,12 +20,12 @@ Starting audit...
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:43:28: '(' is preceded with whitespace. [MethodParamPad]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:43:29: Parameter index should be final. [FinalParameters]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:43:40: Parameter data should be final. [FinalParameters]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:71:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:72:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:73:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:74:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:80:18: 'else' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:80:18: '}' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:91:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:74:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:75:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:76:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:82:18: 'else' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:82:18: '}' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:93:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
 Checkstyle ends with 28 errors.

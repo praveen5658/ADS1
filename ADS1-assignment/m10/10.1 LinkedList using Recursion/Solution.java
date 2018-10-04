@@ -50,12 +50,14 @@ class LinkedList {
 		node.next = null;
 		if (start == null) {
 			start = node;
+			current = start;
 			size++;
 			return;
 		}
 		if (index == 0) {
 			node.next = start;
 			start = node;
+			current = start;
 			size++;
 			return;
 		}
@@ -69,7 +71,7 @@ class LinkedList {
 		size++;
 	}
 	private Node prev = null;
-	private Node current = start;
+	private Node current;
 	private Node next = null;
 	public void reverse() throws Exception {
 		if (size == 0) {

@@ -8,7 +8,12 @@ Your Output:
 5
 7, 5
 7, 6, 5
-begin 0, end -2, length 0
+7
+6
+6
+5
+5
+null
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -29,16 +34,26 @@ Your Output:
 5
 7, 5
 7, 9, 5
-begin 0, end -2, length 0
+7
+9
+9
+5
+5
+null
 Can't insert at this position.
 Can't insert at this position.
-17
-null
-71, 17
-75, 71, 17
 null
 null
-begin 0, end -2, length 0
+71, 7
+75, 71, 7
+null
+null
+75
+71
+71
+7
+7
+null
 ----------------------------------------
 ########## Testcase 2: Passed ##########
 Expected Output: 
