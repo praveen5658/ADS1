@@ -84,8 +84,8 @@ class LinkedList {
 			next = current.next;
 			current.next = prev;
 			prev = current;
-			System.out.println("reverse1");
 			current = next;
+			System.out.println("reverse1");
 			System.out.println(current.data);
 			System.out.print(current+"reverse\n");
 			reverse();
