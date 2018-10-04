@@ -77,7 +77,6 @@ class LinkedList {
 		}
 		if (current == null) {
 			start = prev;
-			return;
 		}else {
 			
 			next = current.next;
@@ -85,9 +84,8 @@ class LinkedList {
 			prev = current;
 			current = next;
 			reverse();
-			return;
 		}
-		
+		return;
 	}
 	public String toString() {
 		String s = "";
