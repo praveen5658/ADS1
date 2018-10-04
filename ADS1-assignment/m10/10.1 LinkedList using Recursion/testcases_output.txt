@@ -8,17 +8,10 @@ Your Output:
 5
 7, 5
 7, 6, 5
-7
-reverse2
-6reverseafterdata
-LinkedList$Node@5f2050f6reverse
-6
-reverse2
-5reverseafterdata
-LinkedList$Node@3b81a1bcreverse
-5
-reverse2
+LinkedList$Node@566776ad
+LinkedList$Node@6108b2d7
 null
+5, 6, 7
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -39,35 +32,26 @@ Your Output:
 5
 7, 5
 7, 9, 5
-7
-reverse2
-9reverseafterdata
-LinkedList$Node@5f2050f6reverse
-9
-reverse2
-5reverseafterdata
-LinkedList$Node@3b81a1bcreverse
-5
-reverse2
+LinkedList$Node@566776ad
+LinkedList$Node@6108b2d7
 null
+5, 9, 7
 Can't insert at this position.
 Can't insert at this position.
-null
-null
-71, 7
-75, 71, 7
-null
-null
-75
-reverse2
-71reverseafterdata
-LinkedList$Node@64616ca2reverse
-71
-reverse2
-7reverseafterdata
-LinkedList$Node@13fee20creverse
-7
-reverse2
+5, 9, 17, 7
+5, 9, 27, 17, 7
+71, 5, 9, 27, 17, 7
+75, 71, 5, 9, 27, 17, 7
+75, 71, 5, 9, 27, 66, 17, 7
+75, 71, 5, 9, 27, 32, 66, 17, 7
+LinkedList$Node@1554909b
+LinkedList$Node@6108b2d7
+LinkedList$Node@566776ad
+LinkedList$Node@6bf256fa
+LinkedList$Node@6cd8737
+LinkedList$Node@22f71333
+LinkedList$Node@13969fbe
+LinkedList$Node@6aaa5eb0
 null
 ----------------------------------------
 ########## Testcase 2: Passed ##########
