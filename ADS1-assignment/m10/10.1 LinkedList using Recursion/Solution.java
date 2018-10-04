@@ -100,12 +100,19 @@ class LinkedList {
      */
     private int index = 0;
     /**
-     * { Insert function }.
+     * { Insert At function }.
      *
      * @param      index1      The index
      * @param      inputdata  The inputdata
      *
      * @throws     Exception  { Can't Insert at Position }.
+     * 
+     * This will insert value at a particular position.
+     * 
+     * Complexity :
+     * Best Case: O(1)
+     * Worst Case : O(N)
+     * Average Case : O(N)
      */
     void insertAt(final int index1, final int inputdata) throws Exception {
         index = index1;
@@ -137,6 +144,11 @@ class LinkedList {
      * { Reverse of List }.
      *
      * @throws     Exception  { Empty List }.
+     * 
+     * Complexity :
+     * Best Case: O(N)
+     * Worst Case : O(N)
+     * Average Case : O(N)
      */
     void reverse() throws Exception {
         if (size == 0) {
@@ -159,6 +171,11 @@ class LinkedList {
      * Returns a string representation of the object.
      *
      * @return     String representation of the object.
+     * 
+     * Complexity :
+     * Best Case: O(N)
+     * Worst Case : O(N)
+     * Average Case : O(N)
      */
     public String toString() {
         String s = "";
