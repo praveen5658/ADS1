@@ -12,7 +12,7 @@ class Solution {
 			switch (input[0]) {
 			case "insertAt":
 				try {
-					l.insert(Integer.parseInt(input[1]), Integer.parseInt(input[2]));
+					l.insertAt(Integer.parseInt(input[1]), Integer.parseInt(input[2]));
 					System.out.println(l);
 				} catch (Exception e) {
 					System.out.println(e.getMessage());
@@ -31,82 +31,59 @@ class Solution {
 	}
 }
 class LinkedList {
-	protected LinkedList() {
-
-	}
+	Node start = null;
+	Node test;
+	Node prev;
+	Node temp;
+	int size = 0;
 	class Node {
 		int data;
 		Node next;
+		Node(int data) {
+			this.data = data;
+		}
 	}
-	private Node start;
-	private int size = 0;
-	int sampleindex = 0;
-	Node samplestart;
-	public void insert (int index, int data) throws Exception {
-		if (index < 0 || index > size) {
+	void insertAt(int index, int inputdata) throws Exception {
+		if (index > size || index < 0) {
 			throw new Exception("Can't insert at this position.");
+			// return;
 		}
-		Node node = new Node();
-		node.data = data;
-		node.next = null;
-		// if (start == null) {
-		// 	start = node;
-		// 	current = start;
-		// 	samplestart = start;
-		// 	size++;
-		// 	return;
-		// }
-		if (index == 0) {
-			node.next = samplestart;
-			start = node;
-			current = start;
-			size++;
-			return;
-		}
-		// if (sampleindex < index - 1) {
-		// 	samplestart = samplestart.next;
-		// 	sampleindex++;
-		// 	insert(index, data);
-		// } else {
-		// 	node.next = samplestart.next;
-		// 	samplestart.next = node;
-		// 	size++;
-		// 	sampleindex = 0;
-		// 	samplestart = start;
-		// 	// System.out.println(size);
-		// 	System.out.println(sampleindex);
-		// 	System.out.println(samplestart.data);
-		// }
 		if (index == 1) {
-			node.next = samplestart.next;
-			samplestart.next = node;
-			current = start;
-			samplestart = start;
+			Node node = new Node(inputdata);
+			node.next = test.next;
+			test.next = node;
+			test = start;
 			size++;
 			return;
 		}
-		samplestart = samplestart.next;
+		if (index == 0) {
+			Node node = new Node(inputdata);
+			node.next = test;
+			start = node;
+			test =  start;
+			size++;
+			return;
+		}
+		test = test.next;
 		index--;
-		insert(index, data);
+		insertAt(index, inputdata);
 	}
-	private Node prev = null;
-	private Node current;
-	private Node next = null;
-	public void reverse() throws Exception {
+	void reverse() throws Exception {
 		if (size == 0) {
 			throw new Exception("No elements to reverse.");
 		}
-		if (current == null) {
-			start = prev;
+		if (test.next == null) {
+			start = test;
+			start.next = prev;
+			test = start;
 			prev = null;
-		} else {
-			next = current.next;
-			current.next = prev;
-			prev = current;
-			current = next;
-			reverse();
+			return;
 		}
-		return;
+		temp = test;
+		test = test.next;
+		temp.next = prev;
+		prev = temp;
+		reverse();
 	}
 	public String toString() {
 		String s = "";
