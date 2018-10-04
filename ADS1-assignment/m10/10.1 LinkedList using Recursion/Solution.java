@@ -17,13 +17,14 @@ final class Solution {
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         String[] input;
-        LinkedList l = new LinkedList();;
+        LinkedList l = new LinkedList();
         while (scan.hasNext()) {
             input = scan.nextLine().split(" ");
             switch (input[0]) {
             case "insertAt":
                 try {
-                    l.insertAt(Integer.parseInt(input[1]), Integer.parseInt(input[2]));
+                    l.insertAt(
+                        Integer.parseInt(input[1]), Integer.parseInt(input[2]));
                     System.out.println(l);
                 } catch (Exception e) {
                     System.out.println(e.getMessage());
@@ -53,10 +54,25 @@ class LinkedList {
     protected LinkedList(){
 
     }
+    /**
+     * { Private Value }.
+     */
     private Node start = null;
+    /**
+     * { Private Value }.
+     */
     private Node test;
+    /**
+     * { Private Value }.
+     */
     private Node prev;
+    /**
+     * { Private Value }.
+     */
     private Node temp;
+    /**
+     * { Private Value }.
+     */
     private int size = 0;
     class Node {
         int data;
