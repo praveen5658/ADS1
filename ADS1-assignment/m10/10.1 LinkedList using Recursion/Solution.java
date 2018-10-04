@@ -107,7 +107,7 @@ class LinkedList {
      *
      * @throws     Exception  { Can't Insert at Position }.
      */
-    void insertAt(final int index1, int inputdata) throws Exception {
+    void insertAt(final int index1, final int inputdata) throws Exception {
         index = index1;
         if (index > size || index < 0) {
             throw new Exception("Can't insert at this position.");

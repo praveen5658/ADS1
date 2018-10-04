@@ -1,5 +1,4 @@
 Starting audit...
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:110:37: Parameter inputdata should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
