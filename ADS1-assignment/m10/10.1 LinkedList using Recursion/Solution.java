@@ -37,7 +37,7 @@ class LinkedList{
 	private Node start;
 	private int size = 0;
 	public void insert (int index, int data) throws Exception {
-		if (index < 0 || index > size - 1){
+		if (index < 0 || index > size){
 			throw new Exception("Can't insert at this position.");
 		}
 		Node node = new Node();
