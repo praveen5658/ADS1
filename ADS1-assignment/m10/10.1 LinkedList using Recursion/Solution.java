@@ -11,8 +11,12 @@ class Solution{
 			input = scan.nextLine().split(" ");
 			switch(input[0]){
 				case "insertAt":
+					try{
 					l.insert(Integer.parseInt(input[1]), Integer.parseInt(input[2]));
 					System.out.println(l);
+					} catch (Exception e){
+						System.out.println(e.getMessage());
+					}
 					break;
 				case "reverse":
 					l.reverse();
@@ -31,18 +35,24 @@ class LinkedList{
 		Node next;
 	}
 	private Node start;
-	public void insert(int index, int data){
+	private int size = 0;
+	public void insert (int index, int data) throws Exception {
+		if (index < 0 || index > size - 1){
+			throw new Exception("Can't insert at this position.");
+		}
 		Node node = new Node();
 		int sampleindex = 0;
 		node.data = data;
 		node.next = null;
 		if(start == null){
 			start = node;
+			size++;
 			return;
 		}
 		if(index == 0){
 			node.next = start;
 			start = node;
+			size++;
 			return;
 		}
 		Node samplestart = start;
@@ -52,6 +62,7 @@ class LinkedList{
 		}
 		node.next = samplestart.next;
 		samplestart.next = node;
+		size++;
 	}
 	public void reverse(){
 		Node prev = null;
