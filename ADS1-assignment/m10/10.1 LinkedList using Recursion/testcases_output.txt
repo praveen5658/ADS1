@@ -10,12 +10,12 @@ Your Output:
 7, 6, 5
 7
 reverse2
-6
-LinkedList$Node@7a5d012creverse
+6reverseafterdata
+LinkedList$Node@5f2050f6reverse
 6
 reverse2
-5
-LinkedList$Node@3fb6a447reverse
+5reverseafterdata
+LinkedList$Node@3b81a1bcreverse
 5
 reverse2
 null
@@ -41,12 +41,12 @@ Your Output:
 7, 9, 5
 7
 reverse2
-9
-LinkedList$Node@7a5d012creverse
+9reverseafterdata
+LinkedList$Node@5f2050f6reverse
 9
 reverse2
-5
-LinkedList$Node@3fb6a447reverse
+5reverseafterdata
+LinkedList$Node@3b81a1bcreverse
 5
 reverse2
 null
@@ -60,12 +60,12 @@ null
 null
 75
 reverse2
-71
-LinkedList$Node@79b4d0freverse
+71reverseafterdata
+LinkedList$Node@64616ca2reverse
 71
 reverse2
-7
-LinkedList$Node@6b2fad11reverse
+7reverseafterdata
+LinkedList$Node@13fee20creverse
 7
 reverse2
 null
