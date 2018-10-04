@@ -89,21 +89,26 @@ class LinkedList {
         /**
          * Constructs the object.
          *
-         * @param      data  The data
+         * @param      data1  The data
          */
-        Node(int data) {
-            this.data = data;
+        Node(final int data1) {
+            this.data = data1;
         }
     }
     /**
+     * { Private Value }.
+     */
+    private int index = 0;
+    /**
      * { Insert function }.
      *
-     * @param      index      The index
+     * @param      index1      The index
      * @param      inputdata  The inputdata
      *
      * @throws     Exception  { Can't Insert at Position }.
      */
-    void insertAt(int index, int inputdata) throws Exception {
+    void insertAt(final int index1, int inputdata) throws Exception {
+        index = index1;
         if (index > size || index < 0) {
             throw new Exception("Can't insert at this position.");
             // return;
