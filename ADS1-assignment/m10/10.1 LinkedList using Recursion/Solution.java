@@ -68,9 +68,9 @@ class LinkedList {
 		samplestart.next = node;
 		size++;
 	}
-	Node prev = null;
-	Node current = start;
-	Node next = null;
+	private Node prev = null;
+	private Node current = start;
+	private Node next = null;
 	public void reverse() throws Exception {
 		if (size == 0) {
 			throw new Exception("No elements to reverse.");
