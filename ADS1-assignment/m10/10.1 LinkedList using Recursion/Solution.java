@@ -80,7 +80,7 @@ class LinkedList {
 		if (current == null) {
 			start = prev;
 			prev = null;
-			next = null;
+			// next = null;
 		}else {
 			next = current.next;
 			current.next = prev;
