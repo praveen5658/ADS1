@@ -78,11 +78,12 @@ class LinkedList {
 		if (current == null) {
 			start = prev;
 		}else {
-			
+			System.out.println(current.data);
 			next = current.next;
 			current.next = prev;
 			prev = current;
 			current = next;
+			System.out.println(current.data);
 			reverse();
 		}
 		return;
