@@ -79,6 +79,8 @@ class LinkedList {
 		}
 		if (current == null) {
 			start = prev;
+			prev = null;
+			next = null;
 		}else {
 			// System.out.println(current.data);
 			next = current.next;
