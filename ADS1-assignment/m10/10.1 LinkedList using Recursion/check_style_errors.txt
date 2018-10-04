@@ -25,10 +25,10 @@ Starting audit...
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:45:28: '(' is preceded with whitespace. [MethodParamPad]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:45:29: Parameter index should be final. [FinalParameters]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:45:40: Parameter data should be final. [FinalParameters]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:83:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:84:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:85:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:86:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:102:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:92:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:93:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:94:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:95:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:111:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
 Checkstyle ends with 31 errors.

@@ -41,7 +41,7 @@ class LinkedList {
 	private Node start;
 	private int size = 0;
 	int sampleindex = 0;
-	Node samplestart = start;
+	Node samplestart;
 	public void insert (int index, int data) throws Exception {
 		if (index < 0 || index > size) {
 			throw new Exception("Can't insert at this position.");
@@ -49,36 +49,45 @@ class LinkedList {
 		Node node = new Node();
 		node.data = data;
 		node.next = null;
-		if (start == null) {
-			start = node;
-			current = start;
-			samplestart = start;
-			size++;
-			return;
-		}
+		// if (start == null) {
+		// 	start = node;
+		// 	current = start;
+		// 	samplestart = start;
+		// 	size++;
+		// 	return;
+		// }
 		if (index == 0) {
-			node.next = start;
+			node.next = samplestart;
 			start = node;
 			current = start;
-			samplestart = start;
 			size++;
 			return;
 		}
-		if (sampleindex < index - 1) {
-			samplestart = samplestart.next;
-			sampleindex++;
-			insert(index, data);
-		} else {
+		// if (sampleindex < index - 1) {
+		// 	samplestart = samplestart.next;
+		// 	sampleindex++;
+		// 	insert(index, data);
+		// } else {
+		// 	node.next = samplestart.next;
+		// 	samplestart.next = node;
+		// 	size++;
+		// 	sampleindex = 0;
+		// 	samplestart = start;
+		// 	// System.out.println(size);
+		// 	System.out.println(sampleindex);
+		// 	System.out.println(samplestart.data);
+		// }
+		if (index == 1) {
 			node.next = samplestart.next;
 			samplestart.next = node;
-			size++;
-			sampleindex = 0;
+			current = start;
 			samplestart = start;
-			// System.out.println(size);
-			System.out.println(sampleindex);
-			System.out.println(samplestart.data);
+			size++;
+			return;
 		}
-		return;
+		samplestart = samplestart.next;
+		index--;
+		insert(index, data);
 	}
 	private Node prev = null;
 	private Node current;
