@@ -1,15 +1,8 @@
 Starting audit...
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:54:27: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:77: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:78:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:78:13: Variable 'data' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:79:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:79:14: Variable 'next' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:80:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:80:14: Parameter data should be final. [FinalParameters]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:80:18: 'data' hides a field. [HiddenField]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:92:19: Parameter index should be final. [FinalParameters]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:92:30: Parameter inputdata should be final. [FinalParameters]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:94:14: Parameter data should be final. [FinalParameters]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:94:18: 'data' hides a field. [HiddenField]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:106:19: Parameter index should be final. [FinalParameters]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m10\10.1 LinkedList using Recursion\Solution.java:106:30: Parameter inputdata should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 5 errors.

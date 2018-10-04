@@ -51,7 +51,7 @@ class LinkedList {
     /**
      * Constructs the object.
      */
-    protected LinkedList(){
+    protected LinkedList() {
 
     }
     /**
@@ -74,9 +74,23 @@ class LinkedList {
      * { Private Value }.
      */
     private int size = 0;
+    /**
+     * Class for node.
+     */
     class Node {
-        int data;
-        Node next;
+        /**
+        * { Private Value }.
+        */
+        private int data;
+        /**
+        * { Private Value }.
+        */
+        private Node next;
+        /**
+         * Constructs the object.
+         *
+         * @param      data  The data
+         */
         Node(int data) {
             this.data = data;
         }
