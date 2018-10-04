@@ -9,15 +9,15 @@ Your Output:
 7, 5
 7, 6, 5
 7
-reverse1
+reverse2
 6
 LinkedList$Node@7a5d012creverse
 6
-reverse1
+reverse2
 5
 LinkedList$Node@3fb6a447reverse
 5
-reverse1
+reverse2
 null
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -40,15 +40,15 @@ Your Output:
 7, 5
 7, 9, 5
 7
-reverse1
+reverse2
 9
 LinkedList$Node@7a5d012creverse
 9
-reverse1
+reverse2
 5
 LinkedList$Node@3fb6a447reverse
 5
-reverse1
+reverse2
 null
 Can't insert at this position.
 Can't insert at this position.
@@ -59,15 +59,15 @@ null
 null
 null
 75
-reverse1
+reverse2
 71
 LinkedList$Node@79b4d0freverse
 71
-reverse1
+reverse2
 7
 LinkedList$Node@6b2fad11reverse
 7
-reverse1
+reverse2
 null
 ----------------------------------------
 ########## Testcase 2: Passed ##########
