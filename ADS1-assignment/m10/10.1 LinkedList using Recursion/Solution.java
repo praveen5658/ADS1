@@ -81,6 +81,7 @@ class LinkedList {
 			prev = current;
 			current = next;
 			reverse();
+			return;
 		}else {
 			start = prev;
 			return;
