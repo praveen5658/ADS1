@@ -40,12 +40,13 @@ class LinkedList {
 	}
 	private Node start;
 	private int size = 0;
+	int sampleindex = 0;
+	Node samplestart = start;
 	public void insert (int index, int data) throws Exception {
 		if (index < 0 || index > size) {
 			throw new Exception("Can't insert at this position.");
 		}
 		Node node = new Node();
-		int sampleindex = 0;
 		node.data = data;
 		node.next = null;
 		if (start == null) {
@@ -61,14 +62,18 @@ class LinkedList {
 			size++;
 			return;
 		}
-		Node samplestart = start;
-		while (sampleindex < index - 1) {
+		if (sampleindex < index - 1) {
 			samplestart = samplestart.next;
 			sampleindex++;
+			insert(index, data);
+		} else {
+			node.next = samplestart.next;
+			samplestart.next = node;
+			size++;
+			sampleindex = 0;
+			samplestart = start;
 		}
-		node.next = samplestart.next;
-		samplestart.next = node;
-		size++;
+		return;
 	}
 	private Node prev = null;
 	private Node current;
@@ -80,8 +85,7 @@ class LinkedList {
 		if (current == null) {
 			start = prev;
 			prev = null;
-			// next = null;
-		}else {
+		} else {
 			next = current.next;
 			current.next = prev;
 			prev = current;
