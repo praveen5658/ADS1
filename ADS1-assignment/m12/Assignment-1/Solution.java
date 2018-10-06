@@ -113,26 +113,26 @@ final class Solution {
 			// }
 		}
 		// System.out.println(totalvaccancies);
-		if (totalvaccancies > 0) {
-			int b = 0;
-			int d = 0;
-			for (int e = 0; e < studentdata.length; e++) {
-				b = 0;
-				if (studentdata[e].getname().compareTo(finaldata[e].getname()) == 0) {
-				} else {
-					b++;
-				}
-				if (b != 0 && (totalvaccancies > 0)) {
-					// System.out.println("entered");
-					// finaldata[d] = studentdata[e];
-					// totalvaccancies--;
-					System.out.println(finaldata[e]);
-					if (totalvaccancies == 0) {
-						break;
-					}
-				}
-			}
-		}
+		// if (totalvaccancies > 0) {
+		// 	int b = 0;
+		// 	int d = 0;
+		// 	for (int e = 0; e < studentdata.length; e++) {
+		// 		b = 0;
+		// 		if (studentdata[e].getname().compareTo(finaldata[e].getname()) == 0) {
+		// 		} else {
+		// 			b++;
+		// 		}
+		// 		if (b != 0 && (totalvaccancies > 0)) {
+		// 			// System.out.println("entered");
+		// 			// finaldata[d] = studentdata[e];
+		// 			// totalvaccancies--;
+		// 			System.out.println(finaldata[e]);
+		// 			if (totalvaccancies == 0) {
+		// 				break;
+		// 			}
+		// 		}
+		// 	}
+		// }
 		for (int d = 0; d < finaldata.length; d++) {
 			System.out.println(finaldata[d]);
 		}
