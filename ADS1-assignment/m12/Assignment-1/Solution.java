@@ -15,7 +15,7 @@ final class Solution{
 		StudentData[] studentdata = new StudentData[studentsnumber];
 		while(studentsnumber > 0){
 			studentdata[i] = new StudentData(scan);
-			System.out.println(studentdata[i].toString());
+			System.out.println(studentdata[i]);
 			i++;
 			studentsnumber--;
 		} 
