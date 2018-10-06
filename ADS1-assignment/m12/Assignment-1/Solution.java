@@ -112,7 +112,7 @@ final class Solution {
 			// 	}
 			// }
 		}
-		System.out.println(totalvaccancies);
+		// System.out.println(totalvaccancies);
 		if(totalvaccancies>0){
 			int b = 0;
 			int d = 0;
@@ -130,6 +130,10 @@ final class Solution {
 					System.out.println("entered");
 					finaldata[d] = studentdata[e];
 					totalvaccancies--;
+					System.out.println(finaldata[d]);
+					if (totalvaccancies == 0){
+						break;
+					}
 				}
 			}
 		}
