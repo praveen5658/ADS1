@@ -69,6 +69,13 @@ final class Solution{
 					totalvaccancies--;
 					h++;
 				}
+			} else {
+				if (unreservedvaccancies > 0){
+					finaldata[h] = studentdata[k];
+					unreservedvaccancies--;
+					totalvaccancies--;
+					h++;
+				}
 			}
 		}
 		for (int d = 0; d < finaldata.length;d++){
