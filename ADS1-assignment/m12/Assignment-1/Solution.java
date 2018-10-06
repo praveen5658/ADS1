@@ -104,6 +104,12 @@ final class Solution {
 					totalvaccancies--;
 					h++;
 				}
+			} else {
+				if (totalvaccancies > (bcvaccancies+scvaccancies+stvaccancies)){
+					finaldata[h] = studentdata[k];
+					h++;
+					totalvaccancies--;
+				}
 			}
 		}
 		for (int d = 0; d < finaldata.length; d++) {
