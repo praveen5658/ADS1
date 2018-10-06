@@ -53,6 +53,9 @@ final class Solution {
                 bc++;
             }
         }
+        System.out.print(sc+" sc\n");
+        System.out.print(bc+" bc\n");
+        System.out.print(st+" st\n");
         for (int k = 0; k < studentdata.length; k++) {
             cat = studentdata[k].getcategory();
             if (unreservedvaccancies > 0) {
