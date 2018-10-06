@@ -24,5 +24,55 @@ final class Solution{
 		for (int k = 0; k < studentdata.length;k++){
 			System.out.println(studentdata[k]);
 		} 
+		System.out.println();
+		String cat;
+		int h = 0;
+		StudentData[] finaldata = new StudentData[totalvaccancies];
+		for (int k = 0; k < studentdata.length;k++){
+			cat = studentdata[k].getcategory();
+			if (cat.compareTo("ST") == 0){
+				if (stvaccancies > 0){
+					// System.out.println(studentdata[k]);
+					finaldata[h] = studentdata[k];
+					stvaccancies--;
+					totalvaccancies--;
+					h++;
+				} else if (unreservedvaccancies > 0){
+					finaldata[h] = studentdata[k];
+					unreservedvaccancies--;
+					totalvaccancies--;
+					h++;
+				}
+			} else if (cat.compareTo("SC") == 0){
+				if (scvaccancies > 0){
+					finaldata[h] = studentdata[k];
+					scvaccancies--;
+					totalvaccancies--;
+					h++;
+				}
+				else if (unreservedvaccancies > 0){
+					finaldata[h] = studentdata[k];
+					unreservedvaccancies--;
+					totalvaccancies--;
+					h++;
+				}
+			} else if (cat.compareTo("BC") == 0){
+				if (bcvaccancies > 0){
+					finaldata[h] = studentdata[k];
+					bcvaccancies--;
+					totalvaccancies--;
+					h++;
+				}
+				else if (unreservedvaccancies > 0){
+					finaldata[h] = studentdata[k];
+					unreservedvaccancies--;
+					totalvaccancies--;
+					h++;
+				}
+			}
+		}
+		for (int d = 0; d < finaldata.length;d++){
+			System.out.println(finaldata[d]);
+		}
 	}
 }
