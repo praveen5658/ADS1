@@ -127,6 +127,7 @@ final class Solution {
 					}
 				}
 				if (b == 0 && (totalvaccancies>0)){
+					System.out.println("entered");
 					finaldata[d] = studentdata[e];
 					totalvaccancies--;
 				}
