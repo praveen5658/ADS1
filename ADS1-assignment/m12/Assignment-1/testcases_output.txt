@@ -31,29 +31,7 @@ tanvi,90,BC
 Aditya,80,ST
 priya,72,SC
 Your Output: 
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 23
+Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:18)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -98,36 +76,7 @@ Raj,87,BC
 Aditya,80,ST
 priya,72,SC
 Your Output: 
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 30
+Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:18)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -147,16 +96,7 @@ divya,99,Open
 Aditya,80,ST
 priya,76,SC
 Your Output: 
-null
-null
-null
-null
-null
-null
-null
-null
-null
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
+Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:18)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
@@ -179,16 +119,7 @@ priya,76,SC
 Ajay,76,Open
 Tanya,66,BC
 Your Output: 
-null
-null
-null
-null
-null
-null
-null
-null
-null
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
+Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:18)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
@@ -238,36 +169,7 @@ Ajay,76,Open
 Amit,76,Open
 Arjun,75,Open
 Your Output: 
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 30
+Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:18)
 ----------------------------------------
 ########## Testcase 5: Failed ##########
@@ -319,35 +221,6 @@ rahul,73,Open
 priya,72,SC
 varsha,66,BC
 Your Output: 
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 30
+Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:18)
 ----------------------------------------
