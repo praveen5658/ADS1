@@ -118,7 +118,7 @@ final class Solution {
 			int d = 0;
 			for (int e = 0;e< studentdata.length;e++){
 				b = 0;
-				for (d = 0;d< finaldata.length;d++){
+				for (d = e;d< finaldata.length;d++){
 					if(studentdata[e].getname().compareTo(finaldata[d].getname())==0){
 						b++;
 						break;
@@ -127,10 +127,10 @@ final class Solution {
 					}
 				}
 				if (b == 0 && (totalvaccancies>0)){
-					System.out.println("entered");
+					// System.out.println("entered");
 					finaldata[d] = studentdata[e];
 					totalvaccancies--;
-					System.out.println(finaldata[d]);
+					// System.out.println(finaldata[d]);
 					if (totalvaccancies == 0){
 						break;
 					}

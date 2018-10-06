@@ -207,13 +207,11 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-entered
-tanvi,90,ST
-tanvi,90,ST
+divya,99,Open
 tanvi,90,ST
 Aditya,80,Open
 priya,76,SC
-Tanya,66,BC
+Ajay,76,Open
 null
 ----------------------------------------
 ########## Testcase 4: Failed ##########
@@ -294,31 +292,8 @@ Aryan,32,Open
 shyam,23,Open
 Shreya,23,Open
 
-entered
-tanvi,99,Open
-entered
-Ishita,99,Open
-entered
-Deepak,98,Open
-entered
-Ira,93,Open
-entered
-Raj,87,Open
-entered
-mahesh,87,Open
-mahesh,87,Open
-tanvi,99,Open
-Ishita,99,Open
-Deepak,98,Open
-Ira,93,Open
-Raj,87,Open
-mahesh,87,Open
-null
-null
-null
-null
-null
-null
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:122)
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -400,27 +375,6 @@ Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
 
-entered
-Deepak,99,Open
-entered
-Ishita,99,Open
-entered
-Ira,93,ST
-entered
-tanvi,90,BC
-tanvi,90,BC
-Deepak,99,Open
-Ishita,99,Open
-Ira,93,ST
-tanvi,90,BC
-Raj,87,BC
-mahesh,87,BC
-riya,83,Open
-Aditya,80,ST
-priya,72,SC
-varsha,66,BC
-null
-null
-null
-null
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:122)
 ----------------------------------------
