@@ -207,12 +207,9 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-divya,99,Open
-tanvi,90,ST
-Aditya,80,Open
-priya,76,SC
-Ajay,76,Open
-null
+Tanya,66,BC
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:121)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -293,7 +290,7 @@ shyam,23,Open
 Shreya,23,Open
 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:122)
+	at Solution.main(Solution.java:121)
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -375,6 +372,8 @@ Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
 
+priya,72,SC
+varsha,66,BC
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:122)
+	at Solution.main(Solution.java:121)
 ----------------------------------------

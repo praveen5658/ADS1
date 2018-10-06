@@ -82,22 +82,22 @@ final class Solution {
 				unreservedvaccancies--;
 				totalvaccancies--;
 				h++;
-			} else if (cat.compareTo("SC") == 0){
-				if (scvaccancies > 0){
+			} else if (cat.compareTo("SC") == 0) {
+				if (scvaccancies > 0) {
 					finaldata[h] = studentdata[k];
 					scvaccancies--;
 					totalvaccancies--;
 					h++;
 				}
-			}else if (cat.compareTo("BC") == 0){
-				if (bcvaccancies > 0){
+			} else if (cat.compareTo("BC") == 0) {
+				if (bcvaccancies > 0) {
 					finaldata[h] = studentdata[k];
 					bcvaccancies--;
 					totalvaccancies--;
 					h++;
 				}
-			} else if (cat.compareTo("ST") == 0){
-				if (stvaccancies > 0){
+			} else if (cat.compareTo("ST") == 0) {
+				if (stvaccancies > 0) {
 					// System.out.println(studentdata[k]);
 					finaldata[h] = studentdata[k];
 					stvaccancies--;
@@ -113,25 +113,21 @@ final class Solution {
 			// }
 		}
 		// System.out.println(totalvaccancies);
-		if(totalvaccancies>0){
+		if (totalvaccancies > 0) {
 			int b = 0;
 			int d = 0;
-			for (int e = 0;e< studentdata.length;e++){
+			for (int e = 0; e < studentdata.length; e++) {
 				b = 0;
-				for (d = e;d< finaldata.length;d++){
-					if(studentdata[e].getname().compareTo(finaldata[d].getname())==0){
-						b++;
-						break;
-					} else {
-						break;
-					}
+				if (studentdata[e].getname().compareTo(finaldata[e].getname()) == 0) {
+				} else {
+					b++;
 				}
-				if (b == 0 && (totalvaccancies>0)){
+				if (b != 0 && (totalvaccancies > 0)) {
 					// System.out.println("entered");
-					finaldata[d] = studentdata[e];
-					totalvaccancies--;
-					// System.out.println(finaldata[d]);
-					if (totalvaccancies == 0){
+					// finaldata[d] = studentdata[e];
+					// totalvaccancies--;
+					System.out.println(finaldata[e]);
+					if (totalvaccancies == 0) {
 						break;
 					}
 				}
