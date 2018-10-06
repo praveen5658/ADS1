@@ -396,9 +396,9 @@ mahesh,87,BC
 riya,83,Open
 Aditya,80,ST
 priya,72,SC
+shyam,71,ST
 varsha,66,BC
-null
-null
+Aryan,32,ST
 null
 null
 ----------------------------------------

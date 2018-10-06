@@ -39,6 +39,20 @@ final class Solution {
         String cat;
         int h = 0;
         StudentData[] finaldata = new StudentData[totalvaccancies];
+        int sc = 0;
+        int st = 0;
+        int bc = 0;
+        for (int v = 0; v < studentdata.length;v++){
+            if (studentdata[v].getcategory().compareTo("SC")==0){
+                sc++;
+            }
+            else if(studentdata[v].getcategory().compareTo("ST")==0){
+                st++;
+            }
+            else if(studentdata[v].getcategory().compareTo("BC")==0){
+                bc++;
+            }
+        }
         for (int k = 0; k < studentdata.length; k++) {
             cat = studentdata[k].getcategory();
             if (unreservedvaccancies > 0) {
@@ -50,6 +64,7 @@ final class Solution {
                 if (scvaccancies > 0) {
                     finaldata[h] = studentdata[k];
                     scvaccancies--;
+                    sc--;
                     totalvaccancies--;
                     h++;
                 }
@@ -57,6 +72,7 @@ final class Solution {
                 if (bcvaccancies > 0) {
                     finaldata[h] = studentdata[k];
                     bcvaccancies--;
+                    bc--;
                     totalvaccancies--;
                     h++;
                 }
@@ -65,8 +81,31 @@ final class Solution {
                     // System.out.println(studentdata[k]);
                     finaldata[h] = studentdata[k];
                     stvaccancies--;
+                    st--;
                     totalvaccancies--;
                     h++;
+                }
+                else {
+                    if (totalvaccancies > 0 ){
+                        if (st<stvaccancies){
+                            finaldata[h] = studentdata[k];
+                            h++;
+                            st--;
+                            totalvaccancies--;
+                        }
+                        else if (sc<scvaccancies){
+                            finaldata[h] = studentdata[k];
+                            h++;
+                            sc--;
+                            totalvaccancies--;
+                        }
+                        else if (bc<bcvaccancies){
+                            finaldata[h] = studentdata[k];
+                            h++;
+                            bc--;
+                            totalvaccancies--;
+                        }
+                    }
                 }
             }// } else {
             //  if (totalvaccancies > (bcvaccancies+scvaccancies+stvaccancies)){
