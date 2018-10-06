@@ -23,6 +23,8 @@ class MeritOrderSort {
 							minposition = j;
 						} else if (studentdata[minposition].getsubject2marks()
 						           == studentdata[j].getsubject2marks()) {
+							System.out.println(studentdata[minposition].getdob());
+							System.out.println(studentdata[j].getdob());
 							if (comparedate(studentdata[minposition].getdob(),
 							                studentdata[j].getdob())) {
 								minposition = j;
