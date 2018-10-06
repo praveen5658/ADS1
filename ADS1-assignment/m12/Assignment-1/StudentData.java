@@ -1,4 +1,7 @@
 import java.util.Scanner;
+/**
+ * Class for student data.
+ */
 class StudentData {
 	private String name;
 	private String dob;
@@ -8,6 +11,11 @@ class StudentData {
 	private int totalmarks;
 	private String category;
 	private String[] input;
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      scan  The scan
+	 */
 	protected StudentData(final Scanner scan) {
 		input = scan.nextLine().split(",");
 		final int two = 2;
