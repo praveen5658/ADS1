@@ -26,7 +26,7 @@ class StudentData {
 	public String getname() {
 		return name;
 	}
-	public String dob() {
+	public String getdob() {
 		return dob;
 	}
 	public int getsubject1marks() {

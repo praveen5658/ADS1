@@ -15,9 +15,14 @@ final class Solution{
 		StudentData[] studentdata = new StudentData[studentsnumber];
 		while(studentsnumber > 0){
 			studentdata[i] = new StudentData(scan);
-			System.out.println(studentdata[i]);
+			// System.out.println(studentdata[i]);
 			i++;
 			studentsnumber--;
+		}
+		MeritOrderSort meritordersort = new MeritOrderSort();
+		studentdata = meritordersort.sort(studentdata);
+		for (int k = 0; k < studentdata.length;k++){
+			System.out.println(studentdata[k]);
 		} 
 	}
 }
