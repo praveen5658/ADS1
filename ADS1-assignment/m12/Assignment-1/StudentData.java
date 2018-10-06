@@ -27,7 +27,9 @@ class StudentData {
 		return name;
 	}
 	public String getdob() {
-		return dob;
+		String sample = "";
+		sample = dob.substring(6)+"-"+dob.substring(3, 5)+"-"+dob.substring(0, 2); 
+		return sample;
 	}
 	public int getsubject1marks() {
 		return subject1marks;
