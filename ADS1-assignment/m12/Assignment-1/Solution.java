@@ -104,10 +104,29 @@ final class Solution {
 					totalvaccancies--;
 					h++;
 				}
-			} else {
-				if (totalvaccancies > (bcvaccancies+scvaccancies+stvaccancies)){
-					finaldata[h] = studentdata[k];
-					h++;
+			}// } else {
+			// 	if (totalvaccancies > (bcvaccancies+scvaccancies+stvaccancies)){
+			// 		finaldata[h] = studentdata[k];
+			// 		h++;
+			// 		totalvaccancies--;
+			// 	}
+			// }
+		}
+		if(totalvaccancies>0){
+			int b = 0;
+			int d = 0;
+			for (int e = 0;e< studentdata.length;e++){
+				b = 0;
+				for (d = 0;d< finaldata.length;d++){
+					if(studentdata[e].getname().compareTo(finaldata[d].getname())==0){
+						b++;
+						break;
+					} else {
+						break;
+					}
+				}
+				if (b == 0 && (totalvaccancies>0)){
+					finaldata[d] = studentdata[e];
 					totalvaccancies--;
 				}
 			}
