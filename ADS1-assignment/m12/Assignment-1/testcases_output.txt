@@ -56,8 +56,8 @@ Aryan,32,ST
 Shreya,23,SC
 
 4 sc
-6 bc
-5 st
+5 bc
+3 st
 divya,99,ST
 Deepak,98,Open
 Ira,93,ST
@@ -139,8 +139,8 @@ Aryan,32,ST
 Shreya,23,SC
 
 7 sc
-7 bc
-5 st
+6 bc
+3 st
 divya,99,ST
 Ishita,99,Open
 Deepak,98,Open
@@ -218,7 +218,7 @@ Abhishek,60,BC
 
 1 sc
 2 bc
-1 st
+0 st
 divya,99,Open
 tanvi,90,ST
 Aditya,80,Open
@@ -402,8 +402,8 @@ Aryan,32,ST
 Shreya,23,SC
 
 10 sc
-4 bc
-5 st
+1 bc
+3 st
 divya,99,ST
 Deepak,99,Open
 Ishita,99,Open

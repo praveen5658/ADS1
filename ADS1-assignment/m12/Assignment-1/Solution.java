@@ -42,7 +42,7 @@ final class Solution {
         int sc = 0;
         int st = 0;
         int bc = 0;
-        for (int v = 0; v < studentdata.length;v++){
+        for (int v = unreservedvaccancies; v < studentdata.length;v++){
             if (studentdata[v].getcategory().compareTo("SC")==0){
                 sc++;
             }
