@@ -1,9 +1,6 @@
 Starting audit...
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sorting.java:20: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sorting.java:55: Line is longer than 80 characters (found 96). [LineLength]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sorting.java:88: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sorting.java:121:23: Parameter a should be final. [FinalParameters]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sorting.java:121:37: Parameter b should be final. [FinalParameters]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sorting.java:134:26: Parameter a should be final. [FinalParameters]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sorting.java:21:23: ',' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sorting.java:57:20: ',' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sorting.java:91:28: ',' is preceded with whitespace. [NoWhitespaceBefore]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 3 errors.

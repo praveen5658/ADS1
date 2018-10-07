@@ -17,7 +17,8 @@ class Sorting {
    *
    * @return     { Integer }.
    */
-  public int partition(final Comparable[] array, final int low, final int high) {
+  public int partition(final Comparable[] array
+                       , final int low, final int high) {
     int i = low;
     int j = high + 1;
     while (true) {
@@ -52,7 +53,8 @@ class Sorting {
    * @param      high    The high
    * @param      cutoff  The cutoff
    */
-  private void sort(final Comparable[] array, final int low, final int high, final int cutoff) {
+  private void sort(final Comparable[] array
+                    , final int low, final int high, final int cutoff) {
     if (high <= low + cutoff - 1) {
       insertionSort(array, low, high);
       System.out.println("insertionSort called");
@@ -85,7 +87,8 @@ class Sorting {
    * @param      low    The low
    * @param      high   The high
    */
-  public void insertionSort(final Comparable[] array, final int low, final int high) {
+  public void insertionSort(final Comparable[] array
+                            , final int low, final int high) {
     for (int i = low; i <= high; i++) {
       for (int j = i; j > low && less(array[j], array[j - 1]); j--) {
         swap(array, j, j - 1);
@@ -118,7 +121,7 @@ class Sorting {
    *
    * @return     { Boolean }.
    */
-  public boolean less(Comparable a, Comparable b) {
+  public boolean less(final Comparable a, final Comparable b) {
     return a.compareTo(b) < 0;
   }
   /**
@@ -131,7 +134,7 @@ class Sorting {
    *
    * @return     String representation of the object.
    */
-  public Object toString(Object[] a) {
+  public Object toString(final Object[] a) {
     String s = "[";
     int i;
     for (i = 0; i < a.length - 1; i++) {
