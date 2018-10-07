@@ -18,7 +18,7 @@ class Sorting {
    * @return     { Integer }.
    */
   public int partition(final Comparable[] array
-                       , final int low, final int high) {
+                       ,final int low, final int high) {
     int i = low;
     int j = high + 1;
     while (true) {
