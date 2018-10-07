@@ -1,21 +1,18 @@
 /**
- * { item_description }
+ * { For Importing Scanner class }.
  */
 import java.util.Scanner;
 /**
- * { item_description }
+ * { Solution class }.
  */
 public final class Solution {
 	/**
 	 * Constructs the object.
 	 */
 	private Solution() {
-		/**
-		 * { item_description }
-		 */
 	}
 	/**
-	 * { function_description }
+	 * { Main method }.
 	 *
 	 * @param      args  The arguments
 	 */
