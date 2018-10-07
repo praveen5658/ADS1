@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sorting.java:57:20: ',' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sorting.java:91:28: ',' is preceded with whitespace. [NoWhitespaceBefore]
 Audit done.
-Checkstyle ends with 2 errors.

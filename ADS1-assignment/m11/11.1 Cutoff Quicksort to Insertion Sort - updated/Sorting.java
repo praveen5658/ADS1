@@ -53,8 +53,8 @@ class Sorting {
    * @param      high    The high
    * @param      cutoff  The cutoff
    */
-  private void sort(final Comparable[] array
-                    , final int low, final int high, final int cutoff) {
+  private void sort(final Comparable[] array,
+                    final int low, final int high, final int cutoff) {
     if (high <= low + cutoff - 1) {
       insertionSort(array, low, high);
       System.out.println("insertionSort called");
@@ -87,8 +87,8 @@ class Sorting {
    * @param      low    The low
    * @param      high   The high
    */
-  public void insertionSort(final Comparable[] array
-                            , final int low, final int high) {
+  public void insertionSort(final Comparable[] array,
+                            final int low, final int high) {
     for (int i = low; i <= high; i++) {
       for (int j = i; j > low && less(array[j], array[j - 1]); j--) {
         swap(array, j, j - 1);
