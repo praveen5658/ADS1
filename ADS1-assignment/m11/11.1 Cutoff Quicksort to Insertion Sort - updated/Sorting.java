@@ -1,8 +1,23 @@
+/**
+ * Class for sorting.
+ */
 class Sorting {
-    Sorting() {
+  /**
+   * Constructs the object.
+   */
+    protected Sorting() {
 
     }
-    public int partition(Comparable[] array, int low, int high) {
+    /**
+     * { Partition method }.
+     *
+     * @param      array  The array
+     * @param      low    The low
+     * @param      high   The high
+     *
+     * @return     { Integer }.
+     */
+    public int partition(final Comparable[] array, final int low, final int high) {
         int i = low;
         int j = high + 1;
         while (true) {
@@ -27,9 +42,17 @@ class Sorting {
     }
     
     /**
-     * Time complexity is O(1)
+     * Time complexity is O(N^2)
      */
-    private void sort(Comparable[] array, int low, int high, int cutoff){
+    /**
+     * { Starting sort method }.
+     *
+     * @param      array   The array
+     * @param      low     The low
+     * @param      high    The high
+     * @param      cutoff  The cutoff
+     */
+    private void sort(final Comparable[] array, final int low, final int high, final int cutoff){
       if (high <= low + cutoff - 1) {
         insertionSort(array, low, high);
         System.out.println("insertionSort called");
@@ -43,13 +66,26 @@ class Sorting {
     /**
      * Time complexity is O(1)
      */
-    public void sort(Comparable[] array, int cutoff) {
+    /**
+     * { Initial sort }.
+     *
+     * @param      array   The array
+     * @param      cutoff  The cutoff
+     */
+    public void sort(final Comparable[] array, final int cutoff) {
         sort(array, 0, array.length-1, cutoff);
     }
     /**
      * Time complexity is O(N^2)
      */
-    public void insertionSort(Comparable[] array, int low, int high) {
+    /**
+     * { Insertion Sort }.
+     *
+     * @param      array  The array
+     * @param      low    The low
+     * @param      high   The high
+     */
+    public void insertionSort(final Comparable[] array, final int low, final int high) {
         for (int i = low; i <= high; i++) {
             for (int j = i; j > low && less(array[j], array[j-1]); j--) {
                 swap(array, j, j-1);
@@ -59,7 +95,14 @@ class Sorting {
     /**
      * Time complexity is O(1)
      */
-    public void swap(Comparable[] array, int i, int j) {
+    /**
+     * { Swap function }.
+     *
+     * @param      array  The array
+     * @param      i      { parameter_description }
+     * @param      j      { parameter_description }
+     */
+    public void swap(final Comparable[] array, final int i, final int j) {
         Comparable swap = array[i];
         array[i] = array[j];
         array[j] = swap;
@@ -67,11 +110,26 @@ class Sorting {
     /**
      * Time complexity is O(1)
      */
+    /**
+     * { CompareTo function }.
+     *
+     * @param      a     { COmparable }.
+     * @param      b     { Comparable }.
+     *
+     * @return     { Boolean }.
+     */
     public boolean less(Comparable a, Comparable b) {
         return a.compareTo(b) < 0;
     }
     /**
      * Time complexity is O(N)
+     */
+    /**
+     * Returns a string representation of the object.
+     *
+     * @param      a     { Object }.
+     *
+     * @return     String representation of the object.
      */
     public Object toString(Object[] a) {
         String s = "[";
