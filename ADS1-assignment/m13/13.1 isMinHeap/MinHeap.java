@@ -1,16 +1,49 @@
+/**
+ * { Importing Arrays class }.
+ */
 import java.util.Arrays;
+/**
+ * Class for minimum heap.
+ *
+ * @param      <E>   { Generic type }.
+ */
 class MinHeap<E extends Comparable<E>> {
+	/**
+	 * { Private value }.
+	 */
 	private E[] array;
+	/**
+	 * { Private value }.
+	 */
 	private int size;
-	protected MinHeap(int len) {
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      len   The length
+	 */
+	protected MinHeap(final int len) {
 		array = (E[])new Comparable[len + 1];
 		size = 0;
 	}
-	public boolean insert(E value) {
+	/**
+	 * { Insert method }.
+	 *
+	 * @param      value  The value
+	 *
+	 * @return     { Generic type }.
+	 */
+	public boolean insert(final E value) {
 		array[++size] = value;
 		// System.out.println(size);
 		return (swim(size));
 	}
+	/**
+	 * { For checking minheap }.
+	 *
+	 * @param      k     { Integer }.
+	 *
+	 * @return     { Boolean }.
+	 */
 	public boolean swim(int k) {
 		while (k > 1 && less(k / 2, k)) {
 			// swap(k, k/2);
@@ -21,24 +54,15 @@ class MinHeap<E extends Comparable<E>> {
 		}
 		return true;
 	}
-	// public void swap(E one, E two){
-	// 	E temp = array[one];
-	// 	array[one] = array[two];
-	// 	array[two] = temp;
-	// }
-	public boolean less(int one, int two) {
-		// System.out.println((array[one].compareTo(array[two]))<0);
+	/**
+	 * { For compareTo }.
+	 *
+	 * @param      one   One
+	 * @param      two   Two
+	 *
+	 * @return     { boolean }.
+	 */
+	public boolean less(final int one, final int two) {
 		return ((array[one].compareTo(array[two])) <= 0);
-	}
-	public String toString() {
-		if (size == 0) {
-			return "[]";
-		}
-		String s = "[";
-		for (int j = 1; j < size; j++) {
-			s += array[j] + ", ";
-		}
-		s += array[size] + "]";
-		return s;
 	}
 }

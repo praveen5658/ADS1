@@ -1,6 +1,24 @@
+
+/**
+ * { Importing Scanner class }.
+ */
 import java.util.Scanner;
-class Solution {
-	public static void main(String[] args) {
+/**
+ * Class for solution.
+ */
+final class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+
+	}
+	/**
+	 * { Main method }.
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		// String[] input = scan.nextLine().split(" ");
 		String type = scan.nextLine();
@@ -97,7 +115,8 @@ class Solution {
 				testcases--;
 			}
 			break;
+		default:
+			break;
 		}
-		// System.out.println(mh);
 	}
 }
