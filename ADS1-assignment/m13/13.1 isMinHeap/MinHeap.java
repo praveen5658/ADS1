@@ -28,7 +28,7 @@ class MinHeap<E extends Comparable<E>>{
 	// }
 	public boolean less(int one, int two){
 		// System.out.println((array[one].compareTo(array[two]))<0);
-		return((array[one].compareTo(array[two]))<0);
+		return((array[one].compareTo(array[two]))<=0);
 	}
 	public String toString(){
 		if (size == 0){
