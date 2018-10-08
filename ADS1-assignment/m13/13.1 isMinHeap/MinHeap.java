@@ -1,8 +1,4 @@
 /**
- * { Importing Arrays class }.
- */
-import java.util.Arrays;
-/**
  * Class for minimum heap.
  *
  * @param      <E>   { Generic type }.
@@ -40,11 +36,12 @@ class MinHeap<E extends Comparable<E>> {
     /**
      * { For checking minheap }.
      *
-     * @param      k     { Integer }.
+     * @param      k1     { Integer }.
      *
      * @return     { Boolean }.
      */
-    public boolean swim(int k) {
+    public boolean swim(final int k1) {
+        int k = k1;
         while (k > 1 && less(k / 2, k)) {
             // swap(k, k/2);
             k = k / 2;
