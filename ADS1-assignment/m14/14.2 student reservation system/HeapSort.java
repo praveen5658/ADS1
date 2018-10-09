@@ -1,17 +1,14 @@
-/**
- * { item_description }.
- */
 import java.util.Arrays;
 /**
  * Class for heap sort.
  */
 class HeapSort {
-    /**.
-     * { var_description }
+    /**
+     * student array.
      */
     private Student[] students;
-    /**.
-     * { var_description }
+    /**
+     * variable for size.
      */
     private int size;
     /**.
@@ -22,27 +19,26 @@ class HeapSort {
         students = new Student[fourty];
         this.size = 0;
     }
-    /**.
-     * { function_description }
+    /**
+     * function for add.
      *
      * @param      s     { parameter_description }
      */
     public void add(final Student s) {
         students[size++] = s;
     }
-    /**.
-     * { function_description }
+    /**
+     * function for size.
      *
      * @return     { description_of_the_return_value }
      */
     public int size() {
         return size;
     }
-    /**.
-     * { function_description }
+    /**
+     * time complexity of this method is O(N log N).
+     * It access the array elements twice.
      */
-    // time complexity of this method is O(N log N). It access the
-    //array elements twice
     public void sort() {
         int n = size;
         for (int k = n / 2; k >= 1; k--) {
@@ -54,32 +50,33 @@ class HeapSort {
         }
     }
     /**
-     * { function_description }.
+     * Sink Function.
      *
-     * @param      students  The students
-     * @param      k         { parameter_description }.
+     * @param      students1  The students
+     * @param      k1         { parameter_description }.
      * @param      n         { parameter_description }.
      *
-     * time complexity of this method is O(log N). It access the
-     * array elements twice
+     * time complexity of this method is O(log N).
+     * It access the array elements twice
      */
-    public void sink(Student[] students, int k, int n) {
+    public void sink(final Student[] students1, final int k1, final int n) {
+        int k = k1;
         while (2 * k <= n) {
             int j = 2 * k;
-            if (j < n && less(students, j, j + 1))  {
+            if (j < n && less(students1, j, j + 1))  {
                 j++;
             }
-            if (!less(students, k, j)) {
+            if (!less(students1, k, j)) {
                 break;
             }
-            swap(students, k, j);
+            swap(students1, k, j);
             k = j;
         }
     }
     /**
-     * { function_description }.
+     * Less FUnction.
      *
-     * @param      students  The students
+     * @param      students1  The students
      * @param      i         { parameter_description }
      * @param      j         { parameter_description }
      *
@@ -87,50 +84,46 @@ class HeapSort {
      *
      * // time complexity of this method is O(1).
      */
-    public boolean less(Student[] students, int i, int j) {
-        return students[i - 1].compareTo(students[j - 1]) >= 0;
+    public boolean less(final Student[] students1, final int i, final int j) {
+        return students1[i - 1].compareTo(students1[j - 1]) >= 0;
     }
-    // time complexity of this method is O(1). It swaps the 
-    //elements only once.
+    // time complexity of this method is O(1). It swaps the elements only once.
     /**.
-     * { function_description }
+     * Swap function.
      *
-     * @param      students  The students
+     * @param      students1  The students
      * @param      j     { parameter_description }
      * @param      min   The minimum
      */
-    public void swap(Student[] students, int j, int min) {
-        Student temp = students[j - 1];
-        students[j - 1] = students[min - 1];
-        students[min - 1] = temp;
+    public void swap(final Student[] students1, final int j, final int min) {
+        Student temp = students1[j - 1];
+        students1[j - 1] = students1[min - 1];
+        students1[min - 1] = temp;
     }
-    // time complexity of this method is O(N). It iterates
-    // through the array to
-    // print all the objects in array.
-    /**.
-    @return     String representation of the object.
-    */
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         // System.out.println("in print");
         String str = "";
         for (int i = 0; i < size; i++) {
-            str += students[i].getName() + "," 
-            +students[i].getTotal() +
-                   "," + students[i].getCategory() + "\n";
+            str += students[i].getName() + "," + students[i].getTotal()
+                   + "," + students[i].getCategory() + "\n";
         }
         return str;
     }
     /**
-     * { function_description }.
+     * contains function.
      *
      * @param      arr   The arr
      * @param      s     { parameter_description }.
      *
      * @return     { description_of_the_return_value }.
-     * // time complexity of this method is O(N). It iterates
-     * //through the array to
+     * // time complexity of this method is O(N).
      */
-    public boolean contains(int[] arr, int s) {
+    public boolean contains(final int[] arr, final int s) {
         for (int i : arr) {
             if (s == i) {
                 return true;
@@ -138,31 +131,33 @@ class HeapSort {
         }
         return false;
     }
-    /**.
-     * { function_description }
+    /**
+     * function to find vacancy.
      *
      * @param      n     { parameter_description }
      */
-    // time complexity of this method is O(N). It iterates
-    // through the array to
-    // print all the objects in array.
-    public void vacancy1(int n) {
+    // time complexity of this method is O(N). It iterates through the array to
+    public void vacancy1(final int n) {
         for (int i = 0; i < n; i++) {
             System.out.println(students[i].getName() + ","
-            	+students[i].getTotal() +
-                               "," + students[i].getCategory());
+                               + students[i].getTotal()
+                               + "," + students[i].getCategory());
         }
     }
-    /**.
-     * { function_description }
+
+    /**
+     * vacancy2 function.
      *
-     * @param      n     { parameter_description }
-     * @param      n1    The n 1
+     * @param      a     { parameter_description }
+     * @param      b     { parameter_description }
+     * @param      c     { parameter_description }
+     * @param      d     { parameter_description }
      */
-    // time complexity of this method is O(N). It iterates through
-    // the array to
-    // print all the objects in array.
-    public void vacancy2(int n, int n1, int n2, int n3) {
+    public void vacancy2(final int a, final int b, final int c, final int d) {
+        int n = a;
+        int n1 = b;
+        int n2 = c;
+        int n3 = d;
         int[] array = new int[n1 + n2 + n3];
         int i = 0;
         for (int k = n; k < size; k++) {
