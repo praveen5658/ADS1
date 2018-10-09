@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**.
  * { item_description }
  */
-public final class Solution {
+final class Solution {
     /**.
      * Constructs the object.
      */
@@ -45,7 +45,5 @@ public final class Solution {
         System.out.println(sort.toString());
         sort.vacancy1(vac1);
         sort.vacancy2(vac1, vac2, vac3, vac4);
-
-
     }
 }
