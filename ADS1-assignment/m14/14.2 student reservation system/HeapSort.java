@@ -41,7 +41,7 @@ class HeapSort {
     /**.
      * { function_description }
      */
-    // time complexity of this method is O(N log N). It access the 
+    // time complexity of this method is O(N log N). It access the
     //array elements twice
     public void sort() {
         int n = size;
@@ -60,7 +60,7 @@ class HeapSort {
      * @param      k         { parameter_description }.
      * @param      n         { parameter_description }.
      *
-     * time complexity of this method is O(log N). It access the 
+     * time complexity of this method is O(log N). It access the
      * array elements twice
      */
     public void sink(Student[] students, int k, int n) {
@@ -104,7 +104,7 @@ class HeapSort {
         students[j - 1] = students[min - 1];
         students[min - 1] = temp;
     }
-    // time complexity of this method is O(N). It iterates 
+    // time complexity of this method is O(N). It iterates
     // through the array to
     // print all the objects in array.
     /**.
@@ -159,7 +159,8 @@ class HeapSort {
      * @param      n     { parameter_description }
      * @param      n1    The n 1
      */
-    // time complexity of this method is O(N). It iterates through the array to
+    // time complexity of this method is O(N). It iterates through
+    // the array to
     // print all the objects in array.
     public void vacancy2(int n, int n1, int n2, int n3) {
         int[] array = new int[n1 + n2 + n3];
