@@ -37,7 +37,8 @@ final class Solution {
             String[] tokens = line.split(",");
             Student student = new Student(tokens[0], tokens[1],
              Integer.parseInt(tokens[2]), Integer.parseInt(tokens[2 + 1]),
-             Integer.parseInt(tokens[2 + 2]), Integer.parseInt(tokens[2 + 2 + 1]),
+             Integer.parseInt(tokens[2 + 2]), Integer.parseInt(
+             tokens[2 + 2 + 1]),
              tokens[2 + 2 + 2]);
             sort.add(student);
         }
