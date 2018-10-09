@@ -41,7 +41,8 @@ class HeapSort {
     /**.
      * { function_description }
      */
-    // time complexity of this method is O(N log N). It access the array elements twice
+    // time complexity of this method is O(N log N). It access the 
+    //array elements twice
     public void sort() {
         int n = size;
         for (int k = n / 2; k >= 1; k--) {
@@ -59,7 +60,8 @@ class HeapSort {
      * @param      k         { parameter_description }.
      * @param      n         { parameter_description }.
      *
-     * time complexity of this method is O(log N). It access the array elements twice
+     * time complexity of this method is O(log N). It access the 
+     * array elements twice
      */
     public void sink(Student[] students, int k, int n) {
         while (2 * k <= n) {
@@ -88,7 +90,8 @@ class HeapSort {
     public boolean less(Student[] students, int i, int j) {
         return students[i - 1].compareTo(students[j - 1]) >= 0;
     }
-    // time complexity of this method is O(1). It swaps the elements only once.
+    // time complexity of this method is O(1). It swaps the 
+    //elements only once.
     /**.
      * { function_description }
      *
@@ -101,7 +104,8 @@ class HeapSort {
         students[j - 1] = students[min - 1];
         students[min - 1] = temp;
     }
-    // time complexity of this method is O(N). It iterates through the array to
+    // time complexity of this method is O(N). It iterates 
+    // through the array to
     // print all the objects in array.
     /**.
     @return     String representation of the object.
@@ -110,7 +114,8 @@ class HeapSort {
         // System.out.println("in print");
         String str = "";
         for (int i = 0; i < size; i++) {
-            str += students[i].getName() + "," + students[i].getTotal() +
+            str += students[i].getName() + "," 
+            +students[i].getTotal() +
                    "," + students[i].getCategory() + "\n";
         }
         return str;
@@ -122,7 +127,8 @@ class HeapSort {
      * @param      s     { parameter_description }.
      *
      * @return     { description_of_the_return_value }.
-     * // time complexity of this method is O(N). It iterates through the array to
+     * // time complexity of this method is O(N). It iterates
+     * //through the array to
      */
     public boolean contains(int[] arr, int s) {
         for (int i : arr) {
@@ -137,11 +143,13 @@ class HeapSort {
      *
      * @param      n     { parameter_description }
      */
-    // time complexity of this method is O(N). It iterates through the array to
+    // time complexity of this method is O(N). It iterates
+    // through the array to
     // print all the objects in array.
     public void vacancy1(int n) {
         for (int i = 0; i < n; i++) {
-            System.out.println(students[i].getName() + "," + students[i].getTotal() +
+            System.out.println(students[i].getName() + ","
+            	+students[i].getTotal() +
                                "," + students[i].getCategory());
         }
     }
