@@ -6,15 +6,15 @@
  */
 public class BinarySearchST<Key extends Comparable<Key>, Value> {
     /**.
-     * { var_description }
+     * { Value }
      */
     private Key[] keys;
     /**.
-     * { var_description }
+     * { Value }
      */
     private Value[]vals;
     /**.
-     * { var_description }
+     * { Value }
      */
     private int size = 0;
     
