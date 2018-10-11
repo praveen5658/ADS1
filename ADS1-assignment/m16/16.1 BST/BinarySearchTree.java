@@ -1,21 +1,49 @@
-class BinarySearchTree<Key extends Comparable<Key>,Value> {
+/**
+ * Class for binary search tree.
+ *
+ * @param      <Key>    The key
+ * @param      <Value>  The value
+ */
+class BinarySearchTree<Key extends Comparable<Key>, Value> {
+    /**
+     * { Value }.
+     */
     private Node root;
+    /**
+     * { Value }.
+     */
     private int size;
-
+    /**
+     * Class for node.
+     */
     private class Node {
+        /**
+        * { Value }.
+        */
         private BookList key;
+        /**
+        * { Value }.
+        */
         private Value val;
+        /**
+        * { Value }.
+        */
         private Node left, right;
-
+        /**
+         * Constructs the object.
+         */
         public Node () {
         }
     }
     /**
-     * { function_description }
+     * { For inserting into BST }.
      *
      * @param      key   The key
      * @param      val   The value
-     * Time complexity : O(logn)
+     * Time complexity :
+     * Best Case : O(logN)
+     * Average Case : O(logN)
+     * Worst Case : O(logN)
      */
     public void put(BookList key, Value val) {
         if (key == null) {
@@ -24,14 +52,17 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
         root = put(root, key, val);
     }
     /**
-     * { function_description }
+     * { Put method }.
      *
      * @param      head  The head
      * @param      key   The key
      * @param      val   The value
      *
-     * @return     { description_of_the_return_value }
-     * Time complexity : O(logn)
+     * @return     { Value }.
+     * Time complexity :
+     * Best Case : O(logN)
+     * Average Case : O(logN)
+     * Worst Case : O(logN)
      */
     public Node put(Node head, BookList key, Value val) {
         if (head == null) {
@@ -53,30 +84,36 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
         return head;
     }
     /**
-     * { function_description }
+     * { Get method }.
      *
      * @param      key   The key
      *
-     * @return     { description_of_the_return_value }
-     * Time complexity : O(logn)
+     * @return     { Value }.
+     * Time complexity :
+     * Best Case : O(logN)
+     * Average Case : O(logN)
+     * Worst Case : O(logN)
      */
     public Value get(BookList key) {
         return get(root, key);
     }
     /**
-     * { function_description }
+     * { Get method }.
      *
      * @param      root  The root
      * @param      key   The key
      *
-     * @return     { description_of_the_return_value }
-     * Time complexity : O(logn)
+     * @return     { Value. }
+     * Time complexity :
+     * Best Case : O(logN)
+     * Average Case : O(logN)
+     * Worst Case : O(logN)
      */
     private Value get(Node root, BookList key) {
         if (key == null) {
             System.out.println("key is null");
         }
-        
+
         if (root == null) {
             return null;
         }
@@ -85,7 +122,7 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
             return get(root.left, key);
         } else if (compare > 0) {
             return get(root.right, key);
-        } else{
+        } else {
             return root.val;
         }
     }

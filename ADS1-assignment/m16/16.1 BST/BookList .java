@@ -1,4 +1,4 @@
-class BookList<Key extends Comparable<Key>,Value> {
+class BookList<Key extends Comparable<Key>, Value> {
     String name;
     String author;
     Float cost;
@@ -33,7 +33,7 @@ class BookList<Key extends Comparable<Key>,Value> {
         this.cost = cost;
     }
     /**
-     * { function_description }
+     * { Compare to function }.
      *
      * @param      that  The that
      *
