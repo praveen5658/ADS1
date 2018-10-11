@@ -33,8 +33,8 @@ public final class Solution {
                 System.out.println(
                     bst.get(
                         new BookList(tokens[1],
-                                     tokens[2]
-                                     ,Float.parseFloat(
+                                     tokens[2],
+                                     Float.parseFloat(
                                          tokens[2 + 1]))));
                 break;
             default:

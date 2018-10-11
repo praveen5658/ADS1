@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m16\16.1 BST\Solution.java:37:37: ',' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m16\16.1 BST\Solution.java:37:39: ',' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 2 errors.
