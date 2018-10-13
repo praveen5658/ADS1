@@ -46,7 +46,7 @@ final class Solution {
                 maxpq.insert(value);
             }
             for (int m = 0; m < five; m++) {
-                f = (float)maxpq.delMax();
+                f =(float)maxpq.delMax();
                 // System.out.print(f +"   Deleted element from maxpq\n");
                 for (s = 0; s < noofstocksperhour - 1; s++) {
                     if ((values[s] == f) &&  ((float)maxpq.max() == f)) {
@@ -65,15 +65,14 @@ final class Solution {
                         key = keys[h];
                         value = f;
                         if (bstmax.contains(key)) {
-                            // System.out.print(bstmax.get(key)+" bstmax.getkey\n");
-                            bstmax.put(key, (int)bstmax.get(key) + 1);
+                            bstmax.put(key,(int)bstmax.get(key) + 1);
                         } else {
                             bstmax.put(key, 1);
                         }
-                        System.out.print(key + " " + Float.toString(value) + "\n");
-                        // s--;
+                        System.out.print(
+                            key + " " + Float.toString(value) + "\n");
                         m++;
-                        f = (float)maxpq.delMax();
+                        f =(float)maxpq.delMax();
                         break;
                     } else if (values[s] == f) {
                         break;
@@ -83,7 +82,7 @@ final class Solution {
                 value = f;
                 if (bstmax.contains(key)) {
                     // System.out.print(bstmax.get(key)+" bstmax.getkey\n");
-                    bstmax.put(key, (int)bstmax.get(key) + 1);
+                    bstmax.put(key,(int)bstmax.get(key) + 1);
                 } else {
                     bstmax.put(key, 1);
                 }
@@ -91,7 +90,7 @@ final class Solution {
             }
             System.out.println();
             for (int m = 0; m < five; m++) {
-                f = (float)minpq.delMin();
+                f =(float)minpq.delMin();
                 for (s = 0; s < noofstocksperhour - 1; s++) {
                     if ((values[s] == f) &&  ((float)minpq.min() == f)) {
                         // s++;
@@ -110,14 +109,14 @@ final class Solution {
                         value = f;
                         if (bstmin.contains(key)) {
                             // System.out.print(bstmin.get(key)+" bstmin.getkey\n");
-                            bstmin.put(key, (int)bstmin.get(key) + 1);
+                            bstmin.put(key,(int)bstmin.get(key) + 1);
                         } else {
                             bstmin.put(key, 1);
                         }
                         System.out.print(key + " " + Float.toString(value) + "\n");
                         // s--;
                         m++;
-                        f = (float)minpq.delMin();
+                        f =(float)minpq.delMin();
                         break;
                     } else if (values[s] == f) {
                         break;
