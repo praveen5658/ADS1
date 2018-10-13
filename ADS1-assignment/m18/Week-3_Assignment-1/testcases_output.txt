@@ -145,11 +145,11 @@ Bharat Rasayan 2.0
 
 1 bstmin.getkey
 Bosch 0.3
-1 bstmin.getkey
+2 bstmin.getkey
 Abbott India 0.46
 1 bstmin.getkey
 MRF 0.48
-1 bstmin.getkey
+2 bstmin.getkey
 Oracle Fin 0.52
 1 bstmin.getkey
 Bajaj Finserv 0.64
@@ -172,7 +172,7 @@ Honeywell Auto -1.08
 1 bstmin.getkey
 Sanofi India 0.21
 Tasty Bite Eat 0.23
-1 bstmin.getkey
+2 bstmin.getkey
 WABCO India 0.33
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -290,15 +290,15 @@ Fine Organic Industries Ltd. 3.29
 2 bstmax.getkey
 Larsen & Toubro 1.11
 
-1 bstmin.getkey
+2 bstmin.getkey
 Nalwa Sons Invst -0.06
 1 bstmin.getkey
 APL Apollo Tube 0.18
 1 bstmin.getkey
 NIIT Tech 0.21
-1 bstmin.getkey
+2 bstmin.getkey
 Ceat 0.23
-1 bstmin.getkey
+2 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 
 3 bstmax.getkey
@@ -312,13 +312,13 @@ Ceat 1.23
 Vinati Organics 1.03
 
 Larsen & Toubro -4.11
-1 bstmin.getkey
+3 bstmin.getkey
 Endurance Technologies Ltd. -0.1
-1 bstmin.getkey
+3 bstmin.getkey
 Nalwa Sons Invst -0.1
 1 bstmin.getkey
 Jubilant Food 0.08
-1 bstmin.getkey
+2 bstmin.getkey
 NIIT Tech 0.34
 
 3 bstmax.getkey
@@ -332,13 +332,13 @@ Ceat 1.23
 1 bstmax.getkey
 NIIT Tech 1.21
 
-1 bstmin.getkey
+4 bstmin.getkey
 Nalwa Sons Invst -2.06
 1 bstmin.getkey
 Fine Organic Industries Ltd. 0.29
 Chola Inv Fin 0.47
 Vinati Organics 1.03
-1 bstmin.getkey
+4 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 
 4 bstmax.getkey
@@ -350,11 +350,11 @@ Nalwa Sons Invst 4.06
 3 bstmax.getkey
 APL Apollo Tube 2.18
 
-1 bstmin.getkey
+3 bstmin.getkey
 Ceat -1.23
-1 bstmin.getkey
+3 bstmin.getkey
 NIIT Tech 0.21
-1 bstmin.getkey
+2 bstmin.getkey
 Fine Organic Industries Ltd. 0.29
 1 bstmin.getkey
 Vinati Organics 1.03
@@ -513,11 +513,11 @@ Bharat Rasayan 2.0
 
 1 bstmin.getkey
 Bosch 0.3
-1 bstmin.getkey
+2 bstmin.getkey
 Abbott India 0.46
 1 bstmin.getkey
 MRF 0.48
-1 bstmin.getkey
+2 bstmin.getkey
 Oracle Fin 0.52
 1 bstmin.getkey
 Bajaj Finserv 0.64
@@ -540,7 +540,7 @@ Honeywell Auto -1.08
 1 bstmin.getkey
 Sanofi India 0.21
 Tasty Bite Eat 0.23
-1 bstmin.getkey
+2 bstmin.getkey
 WABCO India 0.33
 ----------------------------------------
 ########## Testcase 3: Failed ##########
@@ -663,15 +663,15 @@ Fine Organic Industries Ltd. 3.29
 2 bstmax.getkey
 Larsen & Toubro 1.11
 
-1 bstmin.getkey
+2 bstmin.getkey
 Nalwa Sons Invst -0.06
 1 bstmin.getkey
 APL Apollo Tube 0.18
 1 bstmin.getkey
 NIIT Tech 0.21
-1 bstmin.getkey
+2 bstmin.getkey
 Ceat 0.23
-1 bstmin.getkey
+2 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 
 3 bstmax.getkey
@@ -685,13 +685,13 @@ Ceat 1.23
 Vinati Organics 1.03
 
 Larsen & Toubro -4.11
-1 bstmin.getkey
+3 bstmin.getkey
 Endurance Technologies Ltd. -0.1
-1 bstmin.getkey
+3 bstmin.getkey
 Nalwa Sons Invst -0.1
 1 bstmin.getkey
 Jubilant Food 0.08
-1 bstmin.getkey
+2 bstmin.getkey
 NIIT Tech 0.34
 
 3 bstmax.getkey
@@ -705,13 +705,13 @@ Ceat 1.23
 1 bstmax.getkey
 NIIT Tech 1.21
 
-1 bstmin.getkey
+4 bstmin.getkey
 Nalwa Sons Invst -2.06
 1 bstmin.getkey
 Fine Organic Industries Ltd. 0.29
 Chola Inv Fin 0.47
 Vinati Organics 1.03
-1 bstmin.getkey
+4 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 
 4 bstmax.getkey
@@ -723,11 +723,11 @@ Nalwa Sons Invst 4.06
 3 bstmax.getkey
 APL Apollo Tube 2.18
 
-1 bstmin.getkey
+3 bstmin.getkey
 Ceat -1.23
-1 bstmin.getkey
+3 bstmin.getkey
 NIIT Tech 0.21
-1 bstmin.getkey
+2 bstmin.getkey
 Fine Organic Industries Ltd. 0.29
 1 bstmin.getkey
 Vinati Organics 1.03
@@ -902,13 +902,13 @@ Bharat Rasayan 2.0
 
 1 bstmin.getkey
 Bosch 0.3
-1 bstmin.getkey
+2 bstmin.getkey
 Abbott India 0.46
 1 bstmin.getkey
 MRF 0.48
-1 bstmin.getkey
+2 bstmin.getkey
 Oracle Fin 0.52
-1 bstmin.getkey
+2 bstmin.getkey
 Bajaj Finserv 0.64
 
 3 bstmax.getkey
@@ -922,7 +922,7 @@ Bajaj Finserv 3.64
 2 bstmax.getkey
 TTK Prestige 3.15
 
-1 bstmin.getkey
+2 bstmin.getkey
 Eicher Motors -1.6
 1 bstmin.getkey
 Honeywell Auto -1.08

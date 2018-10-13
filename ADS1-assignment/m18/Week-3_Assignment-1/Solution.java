@@ -97,7 +97,7 @@ final class Solution {
 						value = f;
 						if (bstmin.contains(key)) {
 							System.out.print(bstmin.get(key)+" bstmin.getkey\n");
-							// bstmin.put(key, bstmin.get(key)+1);
+							bstmin.put(key, (int)bstmin.get(key)+1);
 						} else {
 							bstmin.put(key, 1);
 						}
@@ -114,7 +114,7 @@ final class Solution {
 				value = f;
 				if (bstmin.contains(key)) {
 					System.out.print(bstmin.get(key)+" bstmin.getkey\n");
-					// bstmin.put(key, bstmin.get(key)+(float)1);
+					bstmin.put(key, (int)bstmin.get(key)+1);
 				} else {
 					bstmin.put(key, 1);
 				}
