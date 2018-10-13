@@ -1,24 +1,8 @@
 Starting audit...
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:49:20: '=' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:49:27: 'typecast' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:52:54: 'typecast' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:68:44: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:68:49: 'typecast' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:75:28: '=' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:75:35: 'typecast' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:85:36: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:85:41: 'typecast' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:93:20: '=' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:93:27: 'typecast' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:95:54: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:111: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:112:44: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:112:49: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:116: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:119:28: '=' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:119:35: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:129:42: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:141: switch without "default" clause. [MissingSwitchDefault]
 Audit done.
-Checkstyle ends with 21 errors.
+Checkstyle ends with 5 errors.
