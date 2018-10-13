@@ -266,7 +266,7 @@ NIIT Tech 0.21
 Ceat 0.23
 
 4.08   Deleted element from maxpq
-APL Apollo Tube 4.08Here
+Jubilant Food 4.08Here
 Larsen & Toubro 4.08
 3.21   Deleted element from maxpq
 NIIT Tech 3.21
@@ -627,7 +627,7 @@ NIIT Tech 0.21
 Ceat 0.23
 
 4.08   Deleted element from maxpq
-APL Apollo Tube 4.08Here
+Jubilant Food 4.08Here
 Larsen & Toubro 4.08
 3.21   Deleted element from maxpq
 NIIT Tech 3.21
@@ -809,7 +809,7 @@ Merck Ltd 4.83
 2.57   Deleted element from maxpq
 Schaeffler India 2.57
 2.15   Deleted element from maxpq
-Lakshmi Machine 2.15Here
+ICRA 2.15Here
 TTK Prestige 2.15
 2.0   Deleted element from maxpq
 Bharat Rasayan 2.0
@@ -825,7 +825,7 @@ Bajaj Finserv 5.64
 4.59   Deleted element from maxpq
 Schaeffler India 4.59
 4.0   Deleted element from maxpq
-Tasty Bite Eat 4.0Here
+Sanofi India 4.0Here
 Nestle India 4.0
 4.0   Deleted element from maxpq
 Nestle India 4.0

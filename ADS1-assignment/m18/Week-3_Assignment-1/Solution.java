@@ -38,7 +38,13 @@ final class Solution {
 				for (s = 0; s < noofstocksperhour - 1; s++) {
 					if ((values[s] == f) &&  ((float)maxpq.max() == f)) {
 						// s++;
-						key = keys[s+1];
+						int h = 0;
+						for(h = s + 1; h< noofstocksperhour;h++){
+							if (values[h] == f){
+								break;
+							}
+						}
+						key = keys[h];
 						value = f;
 						if (bstmax.contains(key)) {
 							// bstmax.put(key, bstmax.get(key)+1);
