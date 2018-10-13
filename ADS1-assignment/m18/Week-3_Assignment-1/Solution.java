@@ -108,12 +108,12 @@ final class Solution {
                         key = keys[h];
                         value = f;
                         if (bstmin.contains(key)) {
-                            // System.out.print(bstmin.get(key)+" bstmin.getkey\n");
                             bstmin.put(key, (int) bstmin.get(key) + 1);
                         } else {
                             bstmin.put(key, 1);
                         }
-                        System.out.print(key + " " + Float.toString(value) + "\n");
+                        System.out.print(
+                            key + " " + Float.toString(value) + "\n");
                         // s--;
                         m++;
                         f = (float) minpq.delMin();
@@ -126,7 +126,7 @@ final class Solution {
                 value = f;
                 if (bstmin.contains(key)) {
                     // System.out.print(bstmin.get(key)+" bstmin.getkey\n");
-                    bstmin.put(key, (int)bstmin.get(key) + 1);
+                    bstmin.put(key, (int) bstmin.get(key) + 1);
                 } else {
                     bstmin.put(key, 1);
                 }
@@ -155,7 +155,10 @@ final class Solution {
                     }
                     break;
                 }
+            default:
+                break;
             }
+            
             number--;
         }
     }
