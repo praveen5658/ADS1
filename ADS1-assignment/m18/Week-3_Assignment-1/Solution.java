@@ -52,6 +52,7 @@ final class Solution {
 						key = keys[h];
 						value = f;
 						if (bstmax.contains(key)) {
+							System.out.print(bstmax.get(key)+" bstmax.getkey\n");
 							// bstmax.put(key, bstmax.get(key)+1);
 						} else {
 							bstmax.put(key, 1);
@@ -68,6 +69,7 @@ final class Solution {
 				key = keys[s];
 				value = f;
 				if (bstmax.contains(key)) {
+					System.out.print(bstmax.get(key)+" bstmax.getkey\n");
 					// bstmax.put(key, bstmax.get(key)+1);
 				} else {
 					bstmax.put(key, 1);
@@ -94,7 +96,8 @@ final class Solution {
 						key = keys[h];
 						value = f;
 						if (bstmin.contains(key)) {
-							// bstmax.put(key, bstmax.get(key)+1);
+							System.out.print(bstmin.get(key)+" bstmin.getkey\n");
+							// bstmin.put(key, bstmin.get(key)+1);
 						} else {
 							bstmin.put(key, 1);
 						}
@@ -110,6 +113,7 @@ final class Solution {
 				key = keys[s];
 				value = f;
 				if (bstmin.contains(key)) {
+					System.out.print(bstmin.get(key)+" bstmin.getkey\n");
 					// bstmin.put(key, bstmin.get(key)+(float)1);
 				} else {
 					bstmin.put(key, 1);
@@ -119,5 +123,7 @@ final class Solution {
 			System.out.println();
 			n--;
 		}
+		int number = Integer.parseInt(scan.nextLine());
+
 	}
 }
