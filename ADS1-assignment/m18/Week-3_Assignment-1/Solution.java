@@ -36,7 +36,7 @@ final class Solution {
 				f = (float)maxpq.delMax();
 				System.out.print(f +"   Deleted element from maxpq\n");
 				for (s = 0; s < noofstocksperhour - 1; s++) {
-					if ((values[s] == f) &&  (values[s+1] == f)) {
+					if ((values[s] == f) &&  ((float)maxpq.max() == f)) {
 						// s++;
 						key = keys[s+1];
 						value = f;
@@ -48,6 +48,7 @@ final class Solution {
 						System.out.print(key + " " + Float.toString(value) + "Here\n");
 						// s--;
 						m++;
+						f = (float)maxpq.delMax();
 						break;
 					} else if (values[s] == f){
 						break;
