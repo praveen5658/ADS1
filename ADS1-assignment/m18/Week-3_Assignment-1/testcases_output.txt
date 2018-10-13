@@ -108,14 +108,10 @@ Nestle India 4.57
 ICRA 3.84
 Lakshmi Machine 3.7
 
-1 bstmin.getkey
 WABCO India -1.33
 Sanofi India -1.21
-1 bstmin.getkey
 GSK Cons Health -0.84
-1 bstmin.getkey
 Abbott India 0.46
-1 bstmin.getkey
 Oracle Fin 0.52
 
 2 bstmax.getkey
@@ -127,7 +123,6 @@ Abbott India -0.46
 
 ICRA -2.84
 Schaeffler India -2.57
-1 bstmin.getkey
 TTK Prestige -2.15
 Bharat Rasayan -2.0
 HEG Ltd -1.61
@@ -143,15 +138,10 @@ TTK Prestige 2.15
 1 bstmax.getkey
 Bharat Rasayan 2.0
 
-1 bstmin.getkey
 Bosch 0.3
-2 bstmin.getkey
 Abbott India 0.46
-1 bstmin.getkey
 MRF 0.48
-2 bstmin.getkey
 Oracle Fin 0.52
-1 bstmin.getkey
 Bajaj Finserv 0.64
 
 4 bstmax.getkey
@@ -165,14 +155,10 @@ Bajaj Finserv 3.64
 2 bstmax.getkey
 TTK Prestige 3.15
 
-1 bstmin.getkey
 Eicher Motors -1.6
-1 bstmin.getkey
 Honeywell Auto -1.08
-1 bstmin.getkey
 Sanofi India 0.21
 Tasty Bite Eat 0.23
-2 bstmin.getkey
 WABCO India 0.33
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -270,11 +256,8 @@ Vinati Organics 3.03
 1 bstmax.getkey
 Chola Inv Fin 2.47
 
-1 bstmin.getkey
 Ceat -0.06
-1 bstmin.getkey
 Nalwa Sons Invst -0.06
-1 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 Fine Organic Industries Ltd. 1.29
 APL Apollo Tube 2.18
@@ -290,15 +273,10 @@ Fine Organic Industries Ltd. 3.29
 2 bstmax.getkey
 Larsen & Toubro 1.11
 
-2 bstmin.getkey
 Nalwa Sons Invst -0.06
-1 bstmin.getkey
 APL Apollo Tube 0.18
-1 bstmin.getkey
 NIIT Tech 0.21
-2 bstmin.getkey
 Ceat 0.23
-2 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 
 3 bstmax.getkey
@@ -312,13 +290,9 @@ Ceat 1.23
 Vinati Organics 1.03
 
 Larsen & Toubro -4.11
-3 bstmin.getkey
 Endurance Technologies Ltd. -0.1
-3 bstmin.getkey
 Nalwa Sons Invst -0.1
-1 bstmin.getkey
 Jubilant Food 0.08
-2 bstmin.getkey
 NIIT Tech 0.34
 
 3 bstmax.getkey
@@ -332,13 +306,10 @@ Ceat 1.23
 1 bstmax.getkey
 NIIT Tech 1.21
 
-4 bstmin.getkey
 Nalwa Sons Invst -2.06
-1 bstmin.getkey
 Fine Organic Industries Ltd. 0.29
 Chola Inv Fin 0.47
 Vinati Organics 1.03
-4 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 
 4 bstmax.getkey
@@ -350,15 +321,10 @@ Nalwa Sons Invst 4.06
 3 bstmax.getkey
 APL Apollo Tube 2.18
 
-3 bstmin.getkey
 Ceat -1.23
-3 bstmin.getkey
 NIIT Tech 0.21
-2 bstmin.getkey
 Fine Organic Industries Ltd. 0.29
-1 bstmin.getkey
 Vinati Organics 1.03
-1 bstmin.getkey
 Chola Inv Fin 1.47
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -476,14 +442,10 @@ Nestle India 4.57
 ICRA 3.84
 Lakshmi Machine 3.7
 
-1 bstmin.getkey
 WABCO India -1.33
 Sanofi India -1.21
-1 bstmin.getkey
 GSK Cons Health -0.84
-1 bstmin.getkey
 Abbott India 0.46
-1 bstmin.getkey
 Oracle Fin 0.52
 
 2 bstmax.getkey
@@ -495,7 +457,6 @@ Abbott India -0.46
 
 ICRA -2.84
 Schaeffler India -2.57
-1 bstmin.getkey
 TTK Prestige -2.15
 Bharat Rasayan -2.0
 HEG Ltd -1.61
@@ -511,15 +472,10 @@ TTK Prestige 2.15
 1 bstmax.getkey
 Bharat Rasayan 2.0
 
-1 bstmin.getkey
 Bosch 0.3
-2 bstmin.getkey
 Abbott India 0.46
-1 bstmin.getkey
 MRF 0.48
-2 bstmin.getkey
 Oracle Fin 0.52
-1 bstmin.getkey
 Bajaj Finserv 0.64
 
 4 bstmax.getkey
@@ -533,15 +489,16 @@ Bajaj Finserv 3.64
 2 bstmax.getkey
 TTK Prestige 3.15
 
-1 bstmin.getkey
 Eicher Motors -1.6
-1 bstmin.getkey
 Honeywell Auto -1.08
-1 bstmin.getkey
 Sanofi India 0.21
 Tasty Bite Eat 0.23
-2 bstmin.getkey
 WABCO India 0.33
+
+5
+2
+1
+3
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -643,11 +600,8 @@ Vinati Organics 3.03
 1 bstmax.getkey
 Chola Inv Fin 2.47
 
-1 bstmin.getkey
 Ceat -0.06
-1 bstmin.getkey
 Nalwa Sons Invst -0.06
-1 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 Fine Organic Industries Ltd. 1.29
 APL Apollo Tube 2.18
@@ -663,15 +617,10 @@ Fine Organic Industries Ltd. 3.29
 2 bstmax.getkey
 Larsen & Toubro 1.11
 
-2 bstmin.getkey
 Nalwa Sons Invst -0.06
-1 bstmin.getkey
 APL Apollo Tube 0.18
-1 bstmin.getkey
 NIIT Tech 0.21
-2 bstmin.getkey
 Ceat 0.23
-2 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 
 3 bstmax.getkey
@@ -685,13 +634,9 @@ Ceat 1.23
 Vinati Organics 1.03
 
 Larsen & Toubro -4.11
-3 bstmin.getkey
 Endurance Technologies Ltd. -0.1
-3 bstmin.getkey
 Nalwa Sons Invst -0.1
-1 bstmin.getkey
 Jubilant Food 0.08
-2 bstmin.getkey
 NIIT Tech 0.34
 
 3 bstmax.getkey
@@ -705,13 +650,10 @@ Ceat 1.23
 1 bstmax.getkey
 NIIT Tech 1.21
 
-4 bstmin.getkey
 Nalwa Sons Invst -2.06
-1 bstmin.getkey
 Fine Organic Industries Ltd. 0.29
 Chola Inv Fin 0.47
 Vinati Organics 1.03
-4 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 
 4 bstmax.getkey
@@ -723,16 +665,16 @@ Nalwa Sons Invst 4.06
 3 bstmax.getkey
 APL Apollo Tube 2.18
 
-3 bstmin.getkey
 Ceat -1.23
-3 bstmin.getkey
 NIIT Tech 0.21
-2 bstmin.getkey
 Fine Organic Industries Ltd. 0.29
-1 bstmin.getkey
 Vinati Organics 1.03
-1 bstmin.getkey
 Chola Inv Fin 1.47
+
+2
+null
+4
+null
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -850,10 +792,8 @@ Nestle India 4.0
 
 Merck Ltd -5.83
 Honeywell Auto -1.08
-1 bstmin.getkey
 Abbott India 0.0
 Eicher Motors 0.0
-1 bstmin.getkey
 Eicher Motors 0.0
 
 Tasty Bite Eat 5.23
@@ -864,12 +804,10 @@ ICRA 3.84
 Lakshmi Machine 3.7
 Bosch 2.3
 
-1 bstmin.getkey
 Bajaj Finserv -4.64
 Schaeffler India -2.57
 Bharat Rasayan -2.0
 HEG Ltd -1.61
-1 bstmin.getkey
 Oracle Fin -1.61
 
 1 bstmax.getkey
@@ -881,12 +819,9 @@ Bosch -0.3
 Abbott India -0.46
 
 ICRA -2.84
-1 bstmin.getkey
 Schaeffler India -2.57
 TTK Prestige -2.15
-1 bstmin.getkey
 Bharat Rasayan -2.0
-1 bstmin.getkey
 HEG Ltd -1.61
 
 2 bstmax.getkey
@@ -900,15 +835,10 @@ TTK Prestige 2.15
 1 bstmax.getkey
 Bharat Rasayan 2.0
 
-1 bstmin.getkey
 Bosch 0.3
-2 bstmin.getkey
 Abbott India 0.46
-1 bstmin.getkey
 MRF 0.48
-2 bstmin.getkey
 Oracle Fin 0.52
-2 bstmin.getkey
 Bajaj Finserv 0.64
 
 3 bstmax.getkey
@@ -922,11 +852,18 @@ Bajaj Finserv 3.64
 2 bstmax.getkey
 TTK Prestige 3.15
 
-2 bstmin.getkey
 Eicher Motors -1.6
-1 bstmin.getkey
 Honeywell Auto -1.08
 Sanofi India 0.21
 Tasty Bite Eat 0.23
 WABCO India 0.33
+
+2
+1
+null
+3
+null
+1
+1
+1
 ----------------------------------------

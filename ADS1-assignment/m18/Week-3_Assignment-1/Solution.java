@@ -96,7 +96,7 @@ final class Solution {
 						key = keys[h];
 						value = f;
 						if (bstmin.contains(key)) {
-							System.out.print(bstmin.get(key)+" bstmin.getkey\n");
+							// System.out.print(bstmin.get(key)+" bstmin.getkey\n");
 							bstmin.put(key, (int)bstmin.get(key)+1);
 						} else {
 							bstmin.put(key, 1);
@@ -113,7 +113,7 @@ final class Solution {
 				key = keys[s];
 				value = f;
 				if (bstmin.contains(key)) {
-					System.out.print(bstmin.get(key)+" bstmin.getkey\n");
+					// System.out.print(bstmin.get(key)+" bstmin.getkey\n");
 					bstmin.put(key, (int)bstmin.get(key)+1);
 				} else {
 					bstmin.put(key, 1);
@@ -124,6 +124,19 @@ final class Solution {
 			n--;
 		}
 		int number = Integer.parseInt(scan.nextLine());
-
+		while(number > 0){
+			input = scan.nextLine().split(",");
+			switch(input[0]){
+				case "get":
+					if(input[1].equals("maxST")){
+						System.out.println(bstmax.get(input[2]));
+						break;
+					} else {
+						System.out.println(bstmin.get(input[2]));
+						break;
+					}
+			}
+			number--;
+		}
 	}
 }
