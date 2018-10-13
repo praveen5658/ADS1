@@ -86,7 +86,7 @@ final class Solution {
 								break;
 							}
 						}
-						if (keys[s].compareTo(keys[h]) > 0){
+						if (keys[s].compareTo(keys[h]) < 0){
 							int temp = s;
 							s = h;
 							h = temp;
