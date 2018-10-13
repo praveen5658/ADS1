@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Merck Ltd 4.83
 ICRA 2.84
@@ -72,15 +72,10 @@ Sanofi India 0.21
 Tasty Bite Eat 0.23
 WABCO India 0.33
 Your Output: 
-4.83   Deleted element from maxpq
 Merck Ltd 4.83
-2.84   Deleted element from maxpq
 ICRA 2.84
-2.57   Deleted element from maxpq
 Schaeffler India 2.57
-2.15   Deleted element from maxpq
 TTK Prestige 2.15
-2.0   Deleted element from maxpq
 Bharat Rasayan 2.0
 
 Bosch 0.3
@@ -89,15 +84,10 @@ MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
 
-5.83   Deleted element from maxpq
 Merck Ltd 5.83
-5.64   Deleted element from maxpq
 Bajaj Finserv 5.64
-4.84   Deleted element from maxpq
 ICRA 4.84
-4.59   Deleted element from maxpq
 Schaeffler India 4.59
-4.57   Deleted element from maxpq
 Nestle India 4.57
 
 Honeywell Auto -1.08
@@ -106,15 +96,10 @@ WABCO India 0.33
 Eicher Motors 0.6
 GSK Cons Health 0.84
 
-5.23   Deleted element from maxpq
 Tasty Bite Eat 5.23
-4.64   Deleted element from maxpq
 Bajaj Finserv 4.64
-4.57   Deleted element from maxpq
 Nestle India 4.57
-3.84   Deleted element from maxpq
 ICRA 3.84
-3.7   Deleted element from maxpq
 Lakshmi Machine 3.7
 
 WABCO India -1.33
@@ -123,15 +108,10 @@ GSK Cons Health -0.84
 Abbott India 0.46
 Oracle Fin 0.52
 
-4.83   Deleted element from maxpq
 Merck Ltd 4.83
-3.48   Deleted element from maxpq
 MRF 3.48
-2.56   Deleted element from maxpq
 3M India 2.56
--0.3   Deleted element from maxpq
 Bosch -0.3
--0.46   Deleted element from maxpq
 Abbott India -0.46
 
 ICRA -2.84
@@ -140,15 +120,10 @@ TTK Prestige -2.15
 Bharat Rasayan -2.0
 HEG Ltd -1.61
 
-4.83   Deleted element from maxpq
 Merck Ltd 4.83
-2.84   Deleted element from maxpq
 ICRA 2.84
-2.57   Deleted element from maxpq
 Schaeffler India 2.57
-2.15   Deleted element from maxpq
 TTK Prestige 2.15
-2.0   Deleted element from maxpq
 Bharat Rasayan 2.0
 
 Bosch 0.3
@@ -157,15 +132,10 @@ MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
 
-5.84   Deleted element from maxpq
 ICRA 5.84
-4.7   Deleted element from maxpq
 Lakshmi Machine 4.7
-3.83   Deleted element from maxpq
 Merck Ltd 3.83
-3.64   Deleted element from maxpq
 Bajaj Finserv 3.64
-3.15   Deleted element from maxpq
 TTK Prestige 3.15
 
 Eicher Motors -1.6
@@ -248,15 +218,10 @@ Fine Organic Industries Ltd. 0.29
 Vinati Organics 1.03
 Chola Inv Fin 1.47
 Your Output: 
-4.11   Deleted element from maxpq
 Larsen & Toubro 4.11
-4.03   Deleted element from maxpq
 Vinati Organics 4.03
-3.18   Deleted element from maxpq
 APL Apollo Tube 3.18
-2.29   Deleted element from maxpq
 Fine Organic Industries Ltd. 2.29
-1.47   Deleted element from maxpq
 Chola Inv Fin 1.47
 
 Nalwa Sons Invst -0.06
@@ -265,14 +230,10 @@ Endurance Technologies Ltd. 0.1
 NIIT Tech 0.21
 Ceat 0.23
 
-4.08   Deleted element from maxpq
 Larsen & Toubro 4.08Here
 Jubilant Food 4.08
-3.21   Deleted element from maxpq
 NIIT Tech 3.21
-3.03   Deleted element from maxpq
 Vinati Organics 3.03
-2.47   Deleted element from maxpq
 Chola Inv Fin 2.47
 
 Nalwa Sons Invst -0.06
@@ -281,15 +242,10 @@ Endurance Technologies Ltd. 1.1
 Fine Organic Industries Ltd. 1.29
 APL Apollo Tube 2.18
 
-4.47   Deleted element from maxpq
 Chola Inv Fin 4.47
-4.08   Deleted element from maxpq
 Jubilant Food 4.08
-4.03   Deleted element from maxpq
 Vinati Organics 4.03
-3.29   Deleted element from maxpq
 Fine Organic Industries Ltd. 3.29
-1.11   Deleted element from maxpq
 Larsen & Toubro 1.11
 
 Nalwa Sons Invst -0.06
@@ -298,15 +254,10 @@ NIIT Tech 0.21
 Ceat 0.23
 Endurance Technologies Ltd. 1.1
 
-3.47   Deleted element from maxpq
 Chola Inv Fin 3.47
-3.29   Deleted element from maxpq
 Fine Organic Industries Ltd. 3.29
-2.18   Deleted element from maxpq
 APL Apollo Tube 2.18
-1.23   Deleted element from maxpq
 Ceat 1.23
-1.03   Deleted element from maxpq
 Vinati Organics 1.03
 
 Larsen & Toubro -4.11
@@ -315,15 +266,10 @@ Endurance Technologies Ltd. -0.1
 Jubilant Food 0.08
 NIIT Tech 0.34
 
-3.11   Deleted element from maxpq
 Larsen & Toubro 3.11
-2.18   Deleted element from maxpq
 APL Apollo Tube 2.18
-2.08   Deleted element from maxpq
 Jubilant Food 2.08
-1.23   Deleted element from maxpq
 Ceat 1.23
-1.21   Deleted element from maxpq
 NIIT Tech 1.21
 
 Nalwa Sons Invst -2.06
@@ -332,15 +278,10 @@ Chola Inv Fin 0.47
 Vinati Organics 1.03
 Endurance Technologies Ltd. 1.1
 
-5.11   Deleted element from maxpq
 Larsen & Toubro 5.11
-5.08   Deleted element from maxpq
 Jubilant Food 5.08
-4.1   Deleted element from maxpq
 Endurance Technologies Ltd. 4.1
-4.06   Deleted element from maxpq
 Nalwa Sons Invst 4.06
-2.18   Deleted element from maxpq
 APL Apollo Tube 2.18
 
 Ceat -1.23
@@ -428,15 +369,10 @@ WABCO India 0.33
 1
 3
 Your Output: 
-4.83   Deleted element from maxpq
 Merck Ltd 4.83
-2.84   Deleted element from maxpq
 ICRA 2.84
-2.57   Deleted element from maxpq
 Schaeffler India 2.57
-2.15   Deleted element from maxpq
 TTK Prestige 2.15
-2.0   Deleted element from maxpq
 Bharat Rasayan 2.0
 
 Bosch 0.3
@@ -445,15 +381,10 @@ MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
 
-5.83   Deleted element from maxpq
 Merck Ltd 5.83
-5.64   Deleted element from maxpq
 Bajaj Finserv 5.64
-4.84   Deleted element from maxpq
 ICRA 4.84
-4.59   Deleted element from maxpq
 Schaeffler India 4.59
-4.57   Deleted element from maxpq
 Nestle India 4.57
 
 Honeywell Auto -1.08
@@ -462,15 +393,10 @@ WABCO India 0.33
 Eicher Motors 0.6
 GSK Cons Health 0.84
 
-5.23   Deleted element from maxpq
 Tasty Bite Eat 5.23
-4.64   Deleted element from maxpq
 Bajaj Finserv 4.64
-4.57   Deleted element from maxpq
 Nestle India 4.57
-3.84   Deleted element from maxpq
 ICRA 3.84
-3.7   Deleted element from maxpq
 Lakshmi Machine 3.7
 
 WABCO India -1.33
@@ -479,15 +405,10 @@ GSK Cons Health -0.84
 Abbott India 0.46
 Oracle Fin 0.52
 
-4.83   Deleted element from maxpq
 Merck Ltd 4.83
-3.48   Deleted element from maxpq
 MRF 3.48
-2.56   Deleted element from maxpq
 3M India 2.56
--0.3   Deleted element from maxpq
 Bosch -0.3
--0.46   Deleted element from maxpq
 Abbott India -0.46
 
 ICRA -2.84
@@ -496,15 +417,10 @@ TTK Prestige -2.15
 Bharat Rasayan -2.0
 HEG Ltd -1.61
 
-4.83   Deleted element from maxpq
 Merck Ltd 4.83
-2.84   Deleted element from maxpq
 ICRA 2.84
-2.57   Deleted element from maxpq
 Schaeffler India 2.57
-2.15   Deleted element from maxpq
 TTK Prestige 2.15
-2.0   Deleted element from maxpq
 Bharat Rasayan 2.0
 
 Bosch 0.3
@@ -513,15 +429,10 @@ MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
 
-5.84   Deleted element from maxpq
 ICRA 5.84
-4.7   Deleted element from maxpq
 Lakshmi Machine 4.7
-3.83   Deleted element from maxpq
 Merck Ltd 3.83
-3.64   Deleted element from maxpq
 Bajaj Finserv 3.64
-3.15   Deleted element from maxpq
 TTK Prestige 3.15
 
 Eicher Motors -1.6
@@ -609,15 +520,10 @@ Chola Inv Fin 1.47
 4
 0
 Your Output: 
-4.11   Deleted element from maxpq
 Larsen & Toubro 4.11
-4.03   Deleted element from maxpq
 Vinati Organics 4.03
-3.18   Deleted element from maxpq
 APL Apollo Tube 3.18
-2.29   Deleted element from maxpq
 Fine Organic Industries Ltd. 2.29
-1.47   Deleted element from maxpq
 Chola Inv Fin 1.47
 
 Nalwa Sons Invst -0.06
@@ -626,14 +532,10 @@ Endurance Technologies Ltd. 0.1
 NIIT Tech 0.21
 Ceat 0.23
 
-4.08   Deleted element from maxpq
 Larsen & Toubro 4.08Here
 Jubilant Food 4.08
-3.21   Deleted element from maxpq
 NIIT Tech 3.21
-3.03   Deleted element from maxpq
 Vinati Organics 3.03
-2.47   Deleted element from maxpq
 Chola Inv Fin 2.47
 
 Nalwa Sons Invst -0.06
@@ -642,15 +544,10 @@ Endurance Technologies Ltd. 1.1
 Fine Organic Industries Ltd. 1.29
 APL Apollo Tube 2.18
 
-4.47   Deleted element from maxpq
 Chola Inv Fin 4.47
-4.08   Deleted element from maxpq
 Jubilant Food 4.08
-4.03   Deleted element from maxpq
 Vinati Organics 4.03
-3.29   Deleted element from maxpq
 Fine Organic Industries Ltd. 3.29
-1.11   Deleted element from maxpq
 Larsen & Toubro 1.11
 
 Nalwa Sons Invst -0.06
@@ -659,15 +556,10 @@ NIIT Tech 0.21
 Ceat 0.23
 Endurance Technologies Ltd. 1.1
 
-3.47   Deleted element from maxpq
 Chola Inv Fin 3.47
-3.29   Deleted element from maxpq
 Fine Organic Industries Ltd. 3.29
-2.18   Deleted element from maxpq
 APL Apollo Tube 2.18
-1.23   Deleted element from maxpq
 Ceat 1.23
-1.03   Deleted element from maxpq
 Vinati Organics 1.03
 
 Larsen & Toubro -4.11
@@ -676,15 +568,10 @@ Endurance Technologies Ltd. -0.1
 Jubilant Food 0.08
 NIIT Tech 0.34
 
-3.11   Deleted element from maxpq
 Larsen & Toubro 3.11
-2.18   Deleted element from maxpq
 APL Apollo Tube 2.18
-2.08   Deleted element from maxpq
 Jubilant Food 2.08
-1.23   Deleted element from maxpq
 Ceat 1.23
-1.21   Deleted element from maxpq
 NIIT Tech 1.21
 
 Nalwa Sons Invst -2.06
@@ -693,15 +580,10 @@ Chola Inv Fin 0.47
 Vinati Organics 1.03
 Endurance Technologies Ltd. 1.1
 
-5.11   Deleted element from maxpq
 Larsen & Toubro 5.11
-5.08   Deleted element from maxpq
 Jubilant Food 5.08
-4.1   Deleted element from maxpq
 Endurance Technologies Ltd. 4.1
-4.06   Deleted element from maxpq
 Nalwa Sons Invst 4.06
-2.18   Deleted element from maxpq
 APL Apollo Tube 2.18
 
 Ceat -1.23
@@ -804,14 +686,10 @@ Schaeffler India
 TTK Prestige
 Tasty Bite Eat
 Your Output: 
-4.83   Deleted element from maxpq
 Merck Ltd 4.83
-2.57   Deleted element from maxpq
 Schaeffler India 2.57
-2.15   Deleted element from maxpq
 TTK Prestige 2.15Here
 ICRA 2.15
-2.0   Deleted element from maxpq
 Bharat Rasayan 2.0
 
 Bosch 0.3
@@ -820,14 +698,10 @@ MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
 
-5.64   Deleted element from maxpq
 Bajaj Finserv 5.64
-4.59   Deleted element from maxpq
 Schaeffler India 4.59
-4.0   Deleted element from maxpq
 Sanofi India 4.0Here
 Nestle India 4.0
-4.0   Deleted element from maxpq
 Nestle India 4.0
 
 Merck Ltd -5.83
@@ -836,15 +710,10 @@ Eicher Motors 0.0
 Eicher Motors 0.0
 Eicher Motors 0.0
 
-5.23   Deleted element from maxpq
 Tasty Bite Eat 5.23
-4.57   Deleted element from maxpq
 Nestle India 4.57
-3.84   Deleted element from maxpq
 ICRA 3.84
-3.7   Deleted element from maxpq
 Lakshmi Machine 3.7
-2.3   Deleted element from maxpq
 Bosch 2.3
 
 Bajaj Finserv -4.64
@@ -853,15 +722,10 @@ Bharat Rasayan -2.0
 HEG Ltd -1.61
 HEG Ltd -1.61
 
-4.83   Deleted element from maxpq
 Merck Ltd 4.83
-3.48   Deleted element from maxpq
 MRF 3.48
-2.56   Deleted element from maxpq
 3M India 2.56
--0.3   Deleted element from maxpq
 Bosch -0.3
--0.46   Deleted element from maxpq
 Abbott India -0.46
 
 ICRA -2.84
@@ -870,15 +734,10 @@ TTK Prestige -2.15
 Bharat Rasayan -2.0
 HEG Ltd -1.61
 
-4.83   Deleted element from maxpq
 Merck Ltd 4.83
-2.84   Deleted element from maxpq
 ICRA 2.84
-2.57   Deleted element from maxpq
 Schaeffler India 2.57
-2.15   Deleted element from maxpq
 TTK Prestige 2.15
-2.0   Deleted element from maxpq
 Bharat Rasayan 2.0
 
 Bosch 0.3
@@ -887,15 +746,10 @@ MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
 
-5.84   Deleted element from maxpq
 ICRA 5.84
-4.7   Deleted element from maxpq
 Lakshmi Machine 4.7
-3.83   Deleted element from maxpq
 Merck Ltd 3.83
-3.64   Deleted element from maxpq
 Bajaj Finserv 3.64
-3.15   Deleted element from maxpq
 TTK Prestige 3.15
 
 Eicher Motors -1.6

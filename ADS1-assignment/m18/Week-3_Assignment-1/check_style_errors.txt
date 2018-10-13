@@ -9,8 +9,7 @@ Starting audit...
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:23:43: '5' is a magic number. [MagicNumber]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:35:45: '5' is a magic number. [MagicNumber]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:36:44: 'typecast' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:37: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:37:53: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:37: Line is longer than 80 characters (found 90). [LineLength]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:39: Line is longer than 80 characters (found 93). [LineLength]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:39:74: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:42: Line is longer than 80 characters (found 89). [LineLength]
@@ -34,4 +33,4 @@ Starting audit...
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:88: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:92: Line is longer than 80 characters (found 91). [LineLength]
 Audit done.
-Checkstyle ends with 34 errors.
+Checkstyle ends with 33 errors.
