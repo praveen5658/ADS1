@@ -156,7 +156,6 @@ final class Solution {
                     break;
                 }
             case "intersection":
-                
             default:
                 break;
             }
