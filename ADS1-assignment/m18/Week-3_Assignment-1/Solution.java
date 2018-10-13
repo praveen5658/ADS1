@@ -36,8 +36,8 @@ final class Solution {
 				f = (float)maxpq.delMax();
 				for (s = 0; s < noofstocksperhour - 1; s++) {
 					if (values[s] == f &&  values[s+1] == f) {
-						s++;
-						key = keys[s];
+						// s++;
+						key = keys[s+1];
 						value = f;
 						if (bstmax.contains(key)) {
 							// bstmax.put(key, bstmax.get(key)+1);
@@ -45,7 +45,7 @@ final class Solution {
 							bstmax.put(key, 1);
 						}
 						System.out.print(key + " " + Float.toString(value) + "\n");
-						s--;
+						// s--;
 						m++;
 						break;
 					} else if (values[s] == f){
