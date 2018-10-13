@@ -44,6 +44,11 @@ final class Solution {
 								break;
 							}
 						}
+						if (keys[s].compareTo(keys[h]) < 0){
+							int temp = s;
+							s = h;
+							h = temp;
+						}
 						key = keys[h];
 						value = f;
 						if (bstmax.contains(key)) {

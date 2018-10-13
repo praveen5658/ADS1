@@ -825,8 +825,8 @@ Bajaj Finserv 5.64
 4.59   Deleted element from maxpq
 Schaeffler India 4.59
 4.0   Deleted element from maxpq
-Sanofi India 4.0Here
-Nestle India 4.0
+Nestle India 4.0Here
+Sanofi India 4.0
 4.0   Deleted element from maxpq
 Nestle India 4.0
 
