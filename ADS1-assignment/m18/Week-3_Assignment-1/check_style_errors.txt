@@ -20,9 +20,7 @@ Starting audit...
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:43:76: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:47: Line is longer than 80 characters (found 84). [LineLength]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:47:84: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:55: Line is longer than 80 characters (found 109). [LineLength]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:55:89: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:55:90: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:55: Line is longer than 80 characters (found 112). [LineLength]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:56: Line is longer than 80 characters (found 96). [LineLength]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:56:78: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:56:93: '+' is not preceded with whitespace. [WhitespaceAround]
@@ -30,9 +28,7 @@ Starting audit...
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:60: Line is longer than 80 characters (found 107). [LineLength]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:63:60: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:65:67: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:72: Line is longer than 80 characters (found 93). [LineLength]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:72:73: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:72:74: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:72: Line is longer than 80 characters (found 96). [LineLength]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:73:62: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:73:77: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:73:78: '+' is not followed by whitespace. [WhitespaceAround]
@@ -72,4 +68,4 @@ Starting audit...
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:132: Line is longer than 80 characters (found 89). [LineLength]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m18\Week-3_Assignment-1\Solution.java:135: Line is longer than 80 characters (found 89). [LineLength]
 Audit done.
-Checkstyle ends with 72 errors.
+Checkstyle ends with 68 errors.

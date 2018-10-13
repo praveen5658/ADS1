@@ -52,7 +52,7 @@ final class Solution {
 						key = keys[h];
 						value = f;
 						if (bstmax.contains(key)) {
-							System.out.print(bstmax.get(key)+" bstmax.getkey\n");
+							// System.out.print(bstmax.get(key)+" bstmax.getkey\n");
 							bstmax.put(key, (int)bstmax.get(key)+1);
 						} else {
 							bstmax.put(key, 1);
@@ -69,7 +69,7 @@ final class Solution {
 				key = keys[s];
 				value = f;
 				if (bstmax.contains(key)) {
-					System.out.print(bstmax.get(key)+" bstmax.getkey\n");
+					// System.out.print(bstmax.get(key)+" bstmax.getkey\n");
 					bstmax.put(key, (int)bstmax.get(key)+1);
 				} else {
 					bstmax.put(key, 1);
