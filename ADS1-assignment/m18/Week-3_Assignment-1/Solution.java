@@ -39,12 +39,12 @@ final class Solution {
 					if ((values[s] == f) &&  ((float)maxpq.max() == f)) {
 						// s++;
 						int h = 0;
-						for(h = s + 1; h< noofstocksperhour;h++){
-							if (values[h] == f){
+						for (h = s + 1; h < noofstocksperhour; h++) {
+							if (values[h] == f) {
 								break;
 							}
 						}
-						if (keys[s].compareTo(keys[h]) > 0){
+						if (keys[s].compareTo(keys[h]) > 0) {
 							int temp = s;
 							s = h;
 							h = temp;
@@ -53,7 +53,7 @@ final class Solution {
 						value = f;
 						if (bstmax.contains(key)) {
 							// System.out.print(bstmax.get(key)+" bstmax.getkey\n");
-							bstmax.put(key, (int)bstmax.get(key)+1);
+							bstmax.put(key, (int)bstmax.get(key) + 1);
 						} else {
 							bstmax.put(key, 1);
 						}
@@ -62,7 +62,7 @@ final class Solution {
 						m++;
 						f = (float)maxpq.delMax();
 						break;
-					} else if (values[s] == f){
+					} else if (values[s] == f) {
 						break;
 					}
 				}
@@ -70,7 +70,7 @@ final class Solution {
 				value = f;
 				if (bstmax.contains(key)) {
 					// System.out.print(bstmax.get(key)+" bstmax.getkey\n");
-					bstmax.put(key, (int)bstmax.get(key)+1);
+					bstmax.put(key, (int)bstmax.get(key) + 1);
 				} else {
 					bstmax.put(key, 1);
 				}
@@ -83,12 +83,12 @@ final class Solution {
 					if ((values[s] == f) &&  ((float)minpq.min() == f)) {
 						// s++;
 						int h = 0;
-						for(h = s + 1; h< noofstocksperhour;h++){
-							if (values[h] == f){
+						for (h = s + 1; h < noofstocksperhour; h++) {
+							if (values[h] == f) {
 								break;
 							}
 						}
-						if (keys[s].compareTo(keys[h]) < 0){
+						if (keys[s].compareTo(keys[h]) < 0) {
 							int temp = s;
 							s = h;
 							h = temp;
@@ -97,7 +97,7 @@ final class Solution {
 						value = f;
 						if (bstmin.contains(key)) {
 							// System.out.print(bstmin.get(key)+" bstmin.getkey\n");
-							bstmin.put(key, (int)bstmin.get(key)+1);
+							bstmin.put(key, (int)bstmin.get(key) + 1);
 						} else {
 							bstmin.put(key, 1);
 						}
@@ -106,7 +106,7 @@ final class Solution {
 						m++;
 						f = (float)minpq.delMin();
 						break;
-					} else if (values[s] == f){
+					} else if (values[s] == f) {
 						break;
 					}
 				}
@@ -114,7 +114,7 @@ final class Solution {
 				value = f;
 				if (bstmin.contains(key)) {
 					// System.out.print(bstmin.get(key)+" bstmin.getkey\n");
-					bstmin.put(key, (int)bstmin.get(key)+1);
+					bstmin.put(key, (int)bstmin.get(key) + 1);
 				} else {
 					bstmin.put(key, 1);
 				}
@@ -124,17 +124,25 @@ final class Solution {
 			n--;
 		}
 		int number = Integer.parseInt(scan.nextLine());
-		while(number > 0){
+		while (number > 0) {
 			input = scan.nextLine().split(",");
-			switch(input[0]){
-				case "get":
-					if(input[1].equals("maxST")){
+			switch (input[0]) {
+			case "get":
+				if (input[1].equals("maxST")) {
+					if (bstmax.contains(input[2])) {
 						System.out.println(bstmax.get(input[2]));
-						break;
 					} else {
-						System.out.println(bstmin.get(input[2]));
-						break;
+						System.out.println(0);
 					}
+					break;
+				} else {
+					if (bstmin.contains(input[2])) {
+						System.out.println(bstmin.get(input[2]));
+					} else {
+						System.out.println(0);
+					}
+					break;
+				}
 			}
 			number--;
 		}
