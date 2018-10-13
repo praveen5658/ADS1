@@ -34,7 +34,7 @@ final class Solution {
 			}
 			for (int m = 0; m < 5; m++) {
 				f = (float)maxpq.delMax();
-				for (s = 0; s < noofstocksperhour; s++) {
+				for (s = 0; s < noofstocksperhour - 1; s++) {
 					if (values[s] == f &&  values[s+1] == f) {
 						key = keys[s];
 						value = f;
