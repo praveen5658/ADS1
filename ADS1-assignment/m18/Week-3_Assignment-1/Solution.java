@@ -53,7 +53,7 @@ final class Solution {
 						value = f;
 						if (bstmax.contains(key)) {
 							System.out.print(bstmax.get(key)+" bstmax.getkey\n");
-							// bstmax.put(key, bstmax.get(key)+1);
+							bstmax.put(key, (int)bstmax.get(key)+1);
 						} else {
 							bstmax.put(key, 1);
 						}
@@ -70,7 +70,7 @@ final class Solution {
 				value = f;
 				if (bstmax.contains(key)) {
 					System.out.print(bstmax.get(key)+" bstmax.getkey\n");
-					// bstmax.put(key, bstmax.get(key)+1);
+					bstmax.put(key, (int)bstmax.get(key)+1);
 				} else {
 					bstmax.put(key, 1);
 				}

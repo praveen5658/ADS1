@@ -104,7 +104,7 @@ Tasty Bite Eat 5.23
 Bajaj Finserv 4.64
 1 bstmax.getkey
 Nestle India 4.57
-1 bstmax.getkey
+2 bstmax.getkey
 ICRA 3.84
 Lakshmi Machine 3.7
 
@@ -118,7 +118,7 @@ Abbott India 0.46
 1 bstmin.getkey
 Oracle Fin 0.52
 
-1 bstmax.getkey
+2 bstmax.getkey
 Merck Ltd 4.83
 MRF 3.48
 3M India 2.56
@@ -132,11 +132,11 @@ TTK Prestige -2.15
 Bharat Rasayan -2.0
 HEG Ltd -1.61
 
-1 bstmax.getkey
+3 bstmax.getkey
 Merck Ltd 4.83
-1 bstmax.getkey
+3 bstmax.getkey
 ICRA 2.84
-1 bstmax.getkey
+2 bstmax.getkey
 Schaeffler India 2.57
 1 bstmax.getkey
 TTK Prestige 2.15
@@ -154,15 +154,15 @@ Oracle Fin 0.52
 1 bstmin.getkey
 Bajaj Finserv 0.64
 
-1 bstmax.getkey
+4 bstmax.getkey
 ICRA 5.84
 1 bstmax.getkey
 Lakshmi Machine 4.7
-1 bstmax.getkey
+4 bstmax.getkey
 Merck Ltd 3.83
-1 bstmax.getkey
+2 bstmax.getkey
 Bajaj Finserv 3.64
-1 bstmax.getkey
+2 bstmax.getkey
 TTK Prestige 3.15
 
 1 bstmin.getkey
@@ -279,15 +279,15 @@ Endurance Technologies Ltd. 1.1
 Fine Organic Industries Ltd. 1.29
 APL Apollo Tube 2.18
 
-1 bstmax.getkey
+2 bstmax.getkey
 Chola Inv Fin 4.47
 1 bstmax.getkey
 Jubilant Food 4.08
-1 bstmax.getkey
+2 bstmax.getkey
 Vinati Organics 4.03
 1 bstmax.getkey
 Fine Organic Industries Ltd. 3.29
-1 bstmax.getkey
+2 bstmax.getkey
 Larsen & Toubro 1.11
 
 1 bstmin.getkey
@@ -301,14 +301,14 @@ Ceat 0.23
 1 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 
-1 bstmax.getkey
+3 bstmax.getkey
 Chola Inv Fin 3.47
-1 bstmax.getkey
+2 bstmax.getkey
 Fine Organic Industries Ltd. 3.29
 1 bstmax.getkey
 APL Apollo Tube 2.18
 Ceat 1.23
-1 bstmax.getkey
+3 bstmax.getkey
 Vinati Organics 1.03
 
 Larsen & Toubro -4.11
@@ -321,11 +321,11 @@ Jubilant Food 0.08
 1 bstmin.getkey
 NIIT Tech 0.34
 
-1 bstmax.getkey
+3 bstmax.getkey
 Larsen & Toubro 3.11
-1 bstmax.getkey
+2 bstmax.getkey
 APL Apollo Tube 2.18
-1 bstmax.getkey
+2 bstmax.getkey
 Jubilant Food 2.08
 1 bstmax.getkey
 Ceat 1.23
@@ -341,13 +341,13 @@ Vinati Organics 1.03
 1 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 
-1 bstmax.getkey
+4 bstmax.getkey
 Larsen & Toubro 5.11
-1 bstmax.getkey
+3 bstmax.getkey
 Jubilant Food 5.08
 Endurance Technologies Ltd. 4.1
 Nalwa Sons Invst 4.06
-1 bstmax.getkey
+3 bstmax.getkey
 APL Apollo Tube 2.18
 
 1 bstmin.getkey
@@ -472,7 +472,7 @@ Tasty Bite Eat 5.23
 Bajaj Finserv 4.64
 1 bstmax.getkey
 Nestle India 4.57
-1 bstmax.getkey
+2 bstmax.getkey
 ICRA 3.84
 Lakshmi Machine 3.7
 
@@ -486,7 +486,7 @@ Abbott India 0.46
 1 bstmin.getkey
 Oracle Fin 0.52
 
-1 bstmax.getkey
+2 bstmax.getkey
 Merck Ltd 4.83
 MRF 3.48
 3M India 2.56
@@ -500,11 +500,11 @@ TTK Prestige -2.15
 Bharat Rasayan -2.0
 HEG Ltd -1.61
 
-1 bstmax.getkey
+3 bstmax.getkey
 Merck Ltd 4.83
-1 bstmax.getkey
+3 bstmax.getkey
 ICRA 2.84
-1 bstmax.getkey
+2 bstmax.getkey
 Schaeffler India 2.57
 1 bstmax.getkey
 TTK Prestige 2.15
@@ -522,15 +522,15 @@ Oracle Fin 0.52
 1 bstmin.getkey
 Bajaj Finserv 0.64
 
-1 bstmax.getkey
+4 bstmax.getkey
 ICRA 5.84
 1 bstmax.getkey
 Lakshmi Machine 4.7
-1 bstmax.getkey
+4 bstmax.getkey
 Merck Ltd 3.83
-1 bstmax.getkey
+2 bstmax.getkey
 Bajaj Finserv 3.64
-1 bstmax.getkey
+2 bstmax.getkey
 TTK Prestige 3.15
 
 1 bstmin.getkey
@@ -652,15 +652,15 @@ Endurance Technologies Ltd. 1.1
 Fine Organic Industries Ltd. 1.29
 APL Apollo Tube 2.18
 
-1 bstmax.getkey
+2 bstmax.getkey
 Chola Inv Fin 4.47
 1 bstmax.getkey
 Jubilant Food 4.08
-1 bstmax.getkey
+2 bstmax.getkey
 Vinati Organics 4.03
 1 bstmax.getkey
 Fine Organic Industries Ltd. 3.29
-1 bstmax.getkey
+2 bstmax.getkey
 Larsen & Toubro 1.11
 
 1 bstmin.getkey
@@ -674,14 +674,14 @@ Ceat 0.23
 1 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 
-1 bstmax.getkey
+3 bstmax.getkey
 Chola Inv Fin 3.47
-1 bstmax.getkey
+2 bstmax.getkey
 Fine Organic Industries Ltd. 3.29
 1 bstmax.getkey
 APL Apollo Tube 2.18
 Ceat 1.23
-1 bstmax.getkey
+3 bstmax.getkey
 Vinati Organics 1.03
 
 Larsen & Toubro -4.11
@@ -694,11 +694,11 @@ Jubilant Food 0.08
 1 bstmin.getkey
 NIIT Tech 0.34
 
-1 bstmax.getkey
+3 bstmax.getkey
 Larsen & Toubro 3.11
-1 bstmax.getkey
+2 bstmax.getkey
 APL Apollo Tube 2.18
-1 bstmax.getkey
+2 bstmax.getkey
 Jubilant Food 2.08
 1 bstmax.getkey
 Ceat 1.23
@@ -714,13 +714,13 @@ Vinati Organics 1.03
 1 bstmin.getkey
 Endurance Technologies Ltd. 1.1
 
-1 bstmax.getkey
+4 bstmax.getkey
 Larsen & Toubro 5.11
-1 bstmax.getkey
+3 bstmax.getkey
 Jubilant Food 5.08
 Endurance Technologies Ltd. 4.1
 Nalwa Sons Invst 4.06
-1 bstmax.getkey
+3 bstmax.getkey
 APL Apollo Tube 2.18
 
 1 bstmin.getkey
@@ -857,7 +857,7 @@ Eicher Motors 0.0
 Eicher Motors 0.0
 
 Tasty Bite Eat 5.23
-1 bstmax.getkey
+2 bstmax.getkey
 Nestle India 4.57
 1 bstmax.getkey
 ICRA 3.84
@@ -889,11 +889,11 @@ Bharat Rasayan -2.0
 1 bstmin.getkey
 HEG Ltd -1.61
 
-1 bstmax.getkey
+2 bstmax.getkey
 Merck Ltd 4.83
-1 bstmax.getkey
+2 bstmax.getkey
 ICRA 2.84
-1 bstmax.getkey
+2 bstmax.getkey
 Schaeffler India 2.57
 1 bstmax.getkey
 TTK Prestige 2.15
@@ -911,15 +911,15 @@ Oracle Fin 0.52
 1 bstmin.getkey
 Bajaj Finserv 0.64
 
-1 bstmax.getkey
+3 bstmax.getkey
 ICRA 5.84
 1 bstmax.getkey
 Lakshmi Machine 4.7
-1 bstmax.getkey
+3 bstmax.getkey
 Merck Ltd 3.83
 1 bstmax.getkey
 Bajaj Finserv 3.64
-1 bstmax.getkey
+2 bstmax.getkey
 TTK Prestige 3.15
 
 1 bstmin.getkey
