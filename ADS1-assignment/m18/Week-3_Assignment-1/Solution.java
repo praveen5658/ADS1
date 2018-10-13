@@ -158,7 +158,6 @@ final class Solution {
             default:
                 break;
             }
-            
             number--;
         }
     }
