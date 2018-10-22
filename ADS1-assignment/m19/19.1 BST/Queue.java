@@ -1,15 +1,14 @@
-/******************************************************************************
- *  Compilation:  javac Queue.java
- *  Execution:    java Queue < input.txt
- *  Dependencies: StdIn.java StdOut.java
- *  Data files:   https://algs4.cs.princeton.edu/13stacks/tobe.txt  
- *
- *  A generic queue, implemented using a linked list.
- *
- *  % java Queue < tobe.txt 
- *  to be or not to be (2 left on queue)
- *
- ******************************************************************************/
+*  Compilation:  javac Queue.java
+*  Execution:    java Queue < input.txt
+*  Dependencies: StdIn.java StdOut.java
+*  Data files:   https://algs4.cs.princeton.edu/13stacks/tobe.txt
+*
+*  A generic queue, implemented using a linked list.
+*
+*  % java Queue < tobe.txt
+*  to be or not to be (2 left on queue)
+*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
 
 package edu.princeton.cs.algs4;
 
@@ -130,7 +129,7 @@ public class Queue<Item> implements Iterable<Item> {
             s.append(' ');
         }
         return s.toString();
-    } 
+    }
 
     /**
      * Returns an iterator that iterates over the items in this queue in FIFO order.
@@ -138,7 +137,7 @@ public class Queue<Item> implements Iterable<Item> {
      * @return an iterator that iterates over the items in this queue in FIFO order
      */
     public Iterator<Item> iterator()  {
-        return new ListIterator<Item>(first);  
+        return new ListIterator<Item>(first);
     }
 
     // an iterator, doesn't implement remove() since it's optional
@@ -155,7 +154,7 @@ public class Queue<Item> implements Iterable<Item> {
         public Item next() {
             if (!hasNext()) throw new NoSuchElementException();
             Item item = current.item;
-            current = current.next; 
+            current = current.next;
             return item;
         }
     }

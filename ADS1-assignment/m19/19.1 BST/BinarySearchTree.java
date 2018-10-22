@@ -4,7 +4,7 @@
  * @param      <Key>    The key
  * @param      <Value>  The value
  */
-class BinarySearchTree<Key extends Comparable<Key>,Value> {
+class BinarySearchTree<Key extends Comparable<Key>, Value> {
     /**.
      * { var_description }
      */
@@ -32,7 +32,7 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
         /**.
          * { var_description }
          */
-        private int count; 
+        private int count;
         /**.
          * Constructs the object.
          */
@@ -106,7 +106,7 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
         if (key == null) {
             System.out.println("key is null");
         }
-        
+
         if (root == null) {
             return null;
         }
@@ -115,7 +115,7 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
             return get(root.left, key);
         } else if (compare > 0) {
             return get(root.right, key);
-        } else{
+        } else {
             return root.val;
         }
     }
@@ -304,13 +304,13 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
      */
     public Node select(Node x, int k) {
         if (x == null) {
-            return null; 
+            return null;
         }
-        int t = size(x.left); 
+        int t = size(x.left);
         if (t > k) {
-            return select(x.left,  k); 
+            return select(x.left,  k);
         } else if (t < k) {
-            return select(x.right, k-t-1);
+            return select(x.right, k - t - 1);
         } else {
             return x;
         }

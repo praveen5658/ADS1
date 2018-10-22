@@ -4,7 +4,7 @@
  * @param      <Key>    The key
  * @param      <Value>  The value
  */
-class BookList<Key extends Comparable<Key>,Value> {
+class BookList<Key extends Comparable<Key>, Value> {
     /**.
      * Book name
      */
