@@ -1,9 +1,9 @@
 /**.
- * { item_description }
+ * { Scanner }
  */
 import java.util.Scanner;
 /**.
- * { item_description }
+ * { Solution }
  */
 public final class Solution {
     /**.
