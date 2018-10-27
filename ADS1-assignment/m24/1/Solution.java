@@ -26,11 +26,11 @@ class Student implements Comparable<Student>{
     public int compareTo(final Student other) {
         return this.rollno - other.rollno;
     }
-    public int com(final int ro) {
-        return ro - this.rollno;
-    }
     public String toString() {
         return Integer.toString(rollno) + "," + name + "," + Double.toString(marks);
+    }
+    public void setmarks(final double ma){
+        this.marks = ma;
     }
 }
 /**
@@ -123,6 +123,9 @@ class Node {
     public void setRight(final Node right1) {
         this.right = right1;
     }
+    // public void setrollno(final int ro){
+    //     this.key.set
+    // }
     /**
      * Sets the value.
      *
@@ -225,9 +228,9 @@ class Bst {
         if (cmp > 0) {
             x.setRight(put(x.getRight(), key));
         }
-        // if (cmp == 0) {
-        //     x.setValue(value);
-        // }
+        if (cmp == 0) {
+            x.getKey().setmarks(key.getmarks());
+        }
         // x.setCount(1 + count(x.getLeft()) + count(x.getRight()));
         return x;
     }
