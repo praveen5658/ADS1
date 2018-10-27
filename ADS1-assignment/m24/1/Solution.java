@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Class for book.
  */
-class Student implements Comparable<Student>{
+class Student implements Comparable<Student> {
     private String name;
     private int rollno;
     private double marks;
@@ -29,7 +29,7 @@ class Student implements Comparable<Student>{
     public String toString() {
         return Integer.toString(rollno) + "," + name + "," + Double.toString(marks);
     }
-    public void setmarks(final double ma){
+    public void setmarks(final double ma) {
         this.marks = ma;
     }
 }
@@ -272,10 +272,14 @@ public class Solution {
         for (int i = 0; i < queries; i++) {
             input = scan.nextLine().split(" ");
             Student s = bst.get(Integer.parseInt(input[1]));
-            if (Integer.parseInt(input[2]) == 1) {
-                System.out.println(s.getname());
-            } else if (Integer.parseInt(input[2]) == 2){
-                System.out.println(s.getmarks());
+            if (s == null) {
+                System.out.println("not contained");
+            } else {
+                if (Integer.parseInt(input[2]) == 1) {
+                    System.out.println(s.getname());
+                } else if (Integer.parseInt(input[2]) == 2) {
+                    System.out.println(s.getmarks());
+                }
             }
         }
     }

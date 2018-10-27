@@ -1,6 +1,4 @@
 Starting audit...
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:8:45: '>' is followed by an illegal character. [GenericWhitespace]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:8:45: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:9:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:10:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:11:5: Missing a Javadoc comment. [JavadocVariable]
@@ -12,7 +10,6 @@ Starting audit...
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:29:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:30: Line is longer than 80 characters (found 84). [LineLength]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:32:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:32:42: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:64:8: Unused @param tag for 'value1'. [JavadocMethod]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:65:8: Unused @param tag for 'count1'. [JavadocMethod]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:206:8: Unused @param tag for 'value'. [JavadocMethod]
@@ -23,6 +20,5 @@ Starting audit...
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:261:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:262:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:269: Line is longer than 80 characters (found 101). [LineLength]
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:277:56: '{' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 25 errors.
+Checkstyle ends with 21 errors.
