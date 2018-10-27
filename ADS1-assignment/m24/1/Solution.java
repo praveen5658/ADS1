@@ -273,7 +273,7 @@ public class Solution {
             input = scan.nextLine().split(" ");
             Student s = bst.get(Integer.parseInt(input[1]));
             if (s == null) {
-                System.out.println("not contained");
+                System.out.println("Student doesn't exists...");
             } else {
                 if (Integer.parseInt(input[2]) == 1) {
                     System.out.println(s.getname());
