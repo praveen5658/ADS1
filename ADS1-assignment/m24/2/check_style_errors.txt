@@ -1,0 +1,22 @@
+Starting audit...
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:199:8: Unused @param tag for 'roll'. [JavadocMethod]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:201: Unused Javadoc tag. [JavadocMethod]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:219:40: Expected @param tag for 'val'. [JavadocMethod]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:219:44: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:221:14: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:221:16: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:221:18: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:221:23: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:222:46: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:230:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:230:45: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:232:14: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:232:16: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:232:18: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:232:23: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:233:46: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:270: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:270:19: 'switch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\2\Solution.java:270:29: '{' is not preceded with whitespace. [WhitespaceAround]
+Audit done.
+Checkstyle ends with 19 errors.
