@@ -6,29 +6,72 @@ import java.util.Scanner;
  * Class for book.
  */
 class Student implements Comparable<Student> {
+    /**
+     * { Private Value }.
+     */
     private String name;
+    /**
+     * { Private Value }.
+     */
     private int rollno;
+    /**
+     * { Private Value }.
+     */
     private double marks;
+    /**
+     * { Private Value }.
+     */
+    /**
+     * Constructs the object.
+     *
+     * @param      r     { parameter_description }
+     * @param      na    { parameter_description }
+     * @param      m     { parameter_description }
+     */
     protected Student(final int r, final String na, final double m) {
         name = na;
         rollno = r;
         marks = m;
     }
+    /**
+     * { function_description }.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public String getname() {
         return name;
     }
+    /**
+     * { function_description }.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int getrollno() {
         return rollno;
     }
+    /**
+     * { function_description }.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public double getmarks() {
         return marks;
     }
+    /**
+     * { function_description }.
+     *
+     * @param      other  The other
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int compareTo(final Student other) {
         return this.rollno - other.rollno;
     }
-    public String toString() {
-        return Integer.toString(rollno) + "," + name + "," + Double.toString(marks);
-    }
+    /**
+     * { function_description }.
+     *
+     * @param      ma    { parameter_description }
+     */
     public void setmarks(final double ma) {
         this.marks = ma;
     }
@@ -42,10 +85,6 @@ class Node {
      */
     private Student key;
     /**
-     * varible for value.
-     */
-    // private String value;
-    /**
      * varible for left node.
      */
     private Node left;
@@ -53,10 +92,6 @@ class Node {
      * varible for right node.
      */
     private Node right;
-    /**
-     * varible for count.
-     */
-    // private int count;
     /**
      * Constructs the object.
      *
@@ -76,14 +111,6 @@ class Node {
         return key;
     }
     /**
-     * Gets the value.
-     *
-     * @return     The value.
-     */
-    // public String getValue() {
-    //     return value;
-    // }
-    /**
      * Gets the left.
      *
      * @return     The left.
@@ -100,14 +127,6 @@ class Node {
         return right;
     }
     /**
-     * Gets the count.
-     *
-     * @return     The count.
-     */
-    // public int getCount() {
-    //     return count;
-    // }
-    /**
      * Sets the left.
      *
      * @param      left1  The left 1
@@ -123,25 +142,6 @@ class Node {
     public void setRight(final Node right1) {
         this.right = right1;
     }
-    // public void setrollno(final int ro){
-    //     this.key.set
-    // }
-    /**
-     * Sets the value.
-     *
-     * @param      val   The value
-     */
-    // public void setValue(final String val) {
-    //     this.value = val;
-    // }
-    /**
-     * Sets the count.
-     *
-     * @param      cnt   The count
-     */
-    // public void setCount(final int cnt) {
-    //     this.count = cnt;
-    // }
 }
 /**
  * Class for bst.
@@ -154,49 +154,9 @@ class Bst {
     /**
      * Constructs the object.
      */
-    Bst() {
+    protected Bst() {
 
     }
-    /**
-     * Determines if empty.
-     *
-     * @return     True if empty, False otherwise.
-     */
-    // public boolean isEmpty() {
-    //     return count() == 0;
-    // }
-    /**
-     * keeps track of count.
-     *
-     * @return     { integer }
-     */
-    // public int count() {
-    //     return count(root);
-    // }
-    /**
-     * keeps track of count.
-     *
-     * @param      x     { Node }
-     *
-     * @return     { Node type }
-     */
-    // private int count(final Node x) {
-    //     if (x == null) {
-    //         return 0;
-    //     } else {
-    //         return x.getCount();
-    //     }
-    // }
-    /**
-     * Determines whether key is present.
-     *
-     * @param      key   The key
-     *
-     * @return     { boolean }
-     */
-    // public boolean contains(final Student key) {
-    //     return get(key) != null;
-    // }
     /**
      * Method to insert the key.
      *
@@ -258,7 +218,15 @@ class Bst {
         return null;
     }
 }
-public class Solution {
+/**
+ * Class for solution.
+ */
+public final class Solution {
+    /**
+     * { function_description }.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int insertoperations = Integer.parseInt(scan.nextLine());
