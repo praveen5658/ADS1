@@ -1,4 +1,4 @@
 Starting audit...
-[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:220:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\MSIT\ADS1\ADS1-assignment\m24\1\Solution.java:227:23: '{' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
 Checkstyle ends with 1 errors.

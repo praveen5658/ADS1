@@ -1,4 +1,8 @@
 /**
+ * @author Praveen N
+ * Date : 27-10-2018
+ */
+/**
  * imports Scanner class.
  */
 import java.util.Scanner;
@@ -158,7 +162,7 @@ class Bst {
     /**
      * Method to insert the key.
      *
-     * Time complexity is O(N).
+     * Average Time Complexity : O(logN)
      *
      * @param      key    The key
      */
@@ -167,7 +171,7 @@ class Bst {
     }
     /**
      * Method to insert the keys.
-     * Time complexity is O(N) in worst case.
+     * Average Time Complexity : O(logN)
      * @param      x      The node.
      * @param      key    The key
      *
@@ -187,12 +191,11 @@ class Bst {
         if (cmp == 0) {
             x.getKey().setmarks(key.getmarks());
         }
-        // x.setCount(1 + count(x.getLeft()) + count(x.getRight()));
         return x;
     }
     /**
      * Method to get value of the key.
-     * Time complexity of this method is O(N).
+     * Average Time Complexity : O(logN)
      * @param      roll   The key
      *
      * @return     The value of the key
@@ -218,6 +221,12 @@ class Bst {
  * Class for solution.
  */
 public final class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution(){
+
+    }
     /**
      * { function_description }.
      *
