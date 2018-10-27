@@ -96,8 +96,6 @@ class Node {
      * Constructs the object.
      *
      * @param      key1    The key 1
-     * @param      value1  The value 1
-     * @param      count1  The count 1
      */
     Node(final Student key1) {
         this.key = key1;
@@ -163,7 +161,6 @@ class Bst {
      * Time complexity is O(N).
      *
      * @param      key    The key
-     * @param      value  The value
      */
     public void put(final Student key) {
         root = put(root, key);
@@ -173,7 +170,6 @@ class Bst {
      * Time complexity is O(N) in worst case.
      * @param      x      The node.
      * @param      key    The key
-     * @param      value  The value
      *
      * @return     The node.
      */
@@ -197,7 +193,7 @@ class Bst {
     /**
      * Method to get value of the key.
      * Time complexity of this method is O(N).
-     * @param      key   The key
+     * @param      roll   The key
      *
      * @return     The value of the key
      */
@@ -234,7 +230,8 @@ public final class Solution {
         String[] input;
         for (int i = 0; i < insertoperations; i++) {
             input = scan.nextLine().split(",");
-            bst.put(new Student(Integer.parseInt(input[0]), input[1], Double.parseDouble(input[2])));
+            bst.put(new Student(Integer.parseInt(input[0]),
+                                input[1], Double.parseDouble(input[2])));
         }
         int queries = Integer.parseInt(scan.nextLine());
         for (int i = 0; i < queries; i++) {
